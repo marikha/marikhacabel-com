@@ -1,0 +1,264 @@
+// Medium screens
+@media only screen and (min-width: 40.063em) {
+	.site {
+		margin: 3em auto;
+		padding: 3em 2em;
+		width: $size__site-width;
+	}
+
+	.site-title {
+		font-size: $font__size-h1;
+	}
+
+	.entry-title {
+		font-size: $font__size-h3;
+	}
+
+	.featured-image {
+		overflow: hidden;
+		.post-thumbnail {
+			transition: 0.5s;
+			transform: scale(1.025,1.025);
+		}
+		&:before,
+		&:after {
+			background-size: 75px;
+			width: 75px;
+			height: 75px;
+		}
+
+		& > .corners {
+			overflow: hidden;
+			&:before,
+			&:after {
+				background-size: 75px;
+				width: 75px;
+				height: 75px;
+			}
+		}
+
+		&:hover .post-thumbnail {
+			transform: scale(1,1);
+		}
+	}
+
+	.comment-navigation,
+	.posts-navigation,
+	.post-navigation {
+		& .nav-previous {
+			margin: 0;
+			padding: 0;
+			border: 0;
+			float: left;
+			width: 50%;
+		}
+
+		& .nav-next {
+			float: right;
+			width: 50%;
+		}
+	}
+
+	.main-navigation {
+		padding: 0;
+		text-align: center;
+		ul {
+			list-style: none;
+
+			ul {
+				background: $color__white;
+				text-align: left;
+				box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+				float: left;
+				position: absolute;
+				top: 3em;
+				left: -999em;
+				z-index: 99999;
+
+				ul {
+					left: -999em;
+					top: 0;
+				}
+
+				li {
+					border-top: 0;
+					border-bottom: 1px dashed $color__mid-grey;
+					margin: 0;
+					padding: 0;
+					&:hover > ul,
+					&.focus > ul {
+						left: 100%;
+					}
+					&:last-of-type {
+						border: 0;
+					}
+					& a:after {
+						display: none;
+					}
+
+					&.menu-item-has-children,
+					&.page_item_has_children {
+						& > a:before {
+							-webkit-transform: rotate(-90deg);
+							transform: rotate(-90deg);
+							top: .75em;
+							right: .75em;
+						}
+					}
+				}
+
+				a {
+					padding: .75em 1em;
+					width: 200px;
+				}
+
+				:hover > a,
+				.focus > a {
+				}
+
+				a:hover,
+				a.focus {
+				}
+			}
+
+			li:hover > ul,
+			li.focus > ul {
+				left: auto;
+			}
+		}
+		li {
+			border-top: 0;
+			display: inline-block;
+			margin-top: 0;
+			padding: 0 .5em;
+			position: relative;
+
+			&:hover > a,
+			&.focus > a {
+			}
+
+			& a:after {
+				content: "\00B7";
+				color: $color__primary;
+				display: inline;
+				margin-left: 1em;
+			}
+
+			&:last-of-type a:after {
+				display: none;
+			}
+
+			&.menu-item-has-children,
+			&.page_item_has_children {
+
+				& a:after {
+					padding-left: 1.3em;
+				}
+
+				&:last-of-type a:after {
+					content: "";
+					display: inline-block;
+					padding-left: 1.6em;
+				}
+
+				& > a:before {
+					font-size: 16px;
+					text-align: center;
+					display: inline-block;
+					font-family: "Genericons";
+					font-style: normal;
+					font-weight: normal;
+					font-variant: normal;
+					line-height: 1;
+					text-decoration: inherit;
+					text-transform: none;
+					-moz-osx-font-smoothing: grayscale;
+					-webkit-font-smoothing: antialiased;
+					speak: none;
+					content: "\f431";
+					position: absolute;
+					right: 1.3em;
+					top: .725em;
+				}
+			}
+		}
+		a {
+			border: 0;
+			color: $color__dark-grey;
+			display: block;
+			margin: 0;
+			padding-top: .75em;
+			padding-bottom: .75em;
+			text-decoration: none;
+			transition: 0.3s;
+			
+			&:hover,
+			&:visited:hover {
+				color: $color__link;
+			}
+
+			&:visited {
+				color: $color__dark-grey;
+			}
+		}
+
+		.current_page_item > a,
+		.current-menu-item > a,
+		.current_page_ancestor > a {
+			color: $color__link;
+		}
+	}
+	
+} /* min-width 641px, medium screens */
+
+// Large screens
+@media only screen and (min-width: 64.063em) { 
+	.site {
+		padding: 3em;
+		max-width: 1142px;
+	}
+	.content-area {
+		float: left;
+		margin: 0 (-$size__site-sidebar) 0 0;
+		width: $size__site-content;
+	}
+	.site-main {
+		margin: 0 $size__site-sidebar 0 0;
+	}
+	.site-content .widget-area {
+		float: right;
+		width: $size__site-sidebar;
+		border-top: 0;
+		margin-top: 0;
+		padding-top: 0;
+	}
+
+	.no-sidebar .site-main,
+	.page-template-full-width-page .site-main {
+		margin: 0;
+	}
+	.no-sidebar .content-area,
+	.page-template-full-width-page .content-area {
+		float: none;
+		margin: 0;
+		width: 100%;
+	}
+
+	.site-footer .sep {
+		clear: none;
+		display: inline;
+		margin: 0 .75em;
+		width: auto;
+		height: auto;
+		visibility: visible;
+	}
+} /* min-width 1025px, large screens */
+
+@media only screen and (min-width: 75em) { 
+	.site {
+		padding: 3em 5em;
+	}
+	.no-sidebar .site {
+		width: 58.35%;
+	}
+}

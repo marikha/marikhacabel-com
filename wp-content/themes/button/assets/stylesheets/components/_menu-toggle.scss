@@ -1,0 +1,43 @@
+/* Small menu. */
+.menu-toggle,
+.main-navigation.toggled ul {
+	display: block;
+}
+
+.menu-toggle {
+	font-size: 16px;
+	margin: 0 auto;
+
+	&:before {
+		display: inline-block;
+		font-family: Genericons;
+		font-size: 16px;
+		font-weight: normal;
+		font-style: normal;
+		margin-right: 6px;
+		text-decoration: none;
+		text-transform: none;
+		line-height: 1;
+		vertical-align: middle;
+		position: relative;
+		top: -2px;
+		content: "\f419";
+	}
+}
+
+.main-navigation ul {
+	display: none;
+}
+
+@media screen and (min-width: 40.063em) {
+	.menu-toggle {
+		display: none;
+	}
+	.main-navigation {
+		border-top: 1px dashed $color__mid-grey;
+		border-bottom: 1px dashed $color__mid-grey;
+	}
+	.main-navigation ul {
+		display: block;
+	}
+}

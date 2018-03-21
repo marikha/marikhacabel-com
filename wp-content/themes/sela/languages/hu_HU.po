@@ -1,0 +1,336 @@
+# Translation of WordPress.com - Themes - Sela in Hungarian
+# This file is distributed under the same license as the WordPress.com - Themes - Sela package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-12-11 04:18:36+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Language: hu\n"
+"Project-Id-Version: WordPress.com - Themes - Sela\n"
+
+#: functions.php:161
+msgid "Second Front Page Widget Area"
+msgstr "Kezdőlap második widget terület"
+
+#: functions.php:153
+msgid "First Front Page Widget Area"
+msgstr "Kezdőlap első widget terület"
+
+#: functions.php:145
+msgid "Third Footer Widget Area"
+msgstr "Lábrész harmadik widget terület"
+
+#: functions.php:137
+msgid "Second Footer Widget Area"
+msgstr "Lábrész második widget terület"
+
+#: functions.php:129
+msgid "First Footer Widget Area"
+msgstr "Első lábrész widget terület"
+
+#. Template Name of the plugin/theme
+#: wp-content/themes/pub/sela/page-templates/grid-page.php
+msgid "Grid Page"
+msgstr "Rács oldal"
+
+#. Template Name of the plugin/theme
+#: wp-content/themes/pub/sela/page-templates/full-width-page.php
+msgid "Full Width Page"
+msgstr "Teljes szélességű oldal"
+
+#. Author URI of the plugin/theme
+#: wp-content/themes/pub/sela/style.css
+msgid "https://wordpress.com/themes/"
+msgstr "https://wordpress.com/themes/"
+
+#. Template Name of the plugin/theme
+#: wp-content/themes/pub/sela/page-templates/front-page.php
+msgid "Front Page"
+msgstr "Főoldal"
+
+#. Author of the plugin/theme
+#: wp-content/themes/pub/sela/style.css
+msgid "Automattic"
+msgstr "Automattic"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "%s kifejezésre történő keresés eredménye"
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/template-tags.php:419
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: inc/template-tags.php:421
+msgid "Archives"
+msgstr "Archívum"
+
+#: inc/template-tags.php:410
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "Hangok"
+
+#: inc/template-tags.php:412
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "Beszélgetés naplók"
+
+#: inc/template-tags.php:415
+msgid "Archives: %s"
+msgstr "Archívumok: %s"
+
+#: inc/template-tags.php:406
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "Hivatkozások"
+
+#: inc/template-tags.php:408
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "Állapot üzenetek"
+
+#: inc/template-tags.php:400
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "Képek"
+
+#: inc/template-tags.php:402
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "Videók"
+
+#: inc/template-tags.php:404
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "Idézetek"
+
+#: inc/template-tags.php:393
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "Y-m-d"
+
+#: inc/template-tags.php:396
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "Közbevetések"
+
+#: inc/template-tags.php:398
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "Gallériák"
+
+#: inc/template-tags.php:393
+msgid "Day: %s"
+msgstr "Nap: %s"
+
+#: inc/template-tags.php:391
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "Y F"
+
+#: inc/template-tags.php:391
+msgid "Month: %s"
+msgstr "Hónap: %s"
+
+#: inc/template-tags.php:389
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: inc/template-tags.php:389
+msgid "Year: %s"
+msgstr "Év: %s"
+
+#: inc/template-tags.php:387
+msgid "Author: %s"
+msgstr "Szerző: %s"
+
+#: inc/template-tags.php:383
+msgid "Category: %s"
+msgstr "Kategória: %s"
+
+#: inc/template-tags.php:385
+msgid "Tag: %s"
+msgstr "Címke: %s"
+
+#: inc/template-tags.php:325
+msgid "<a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">Permalink</a>."
+msgstr "<a href=\"%3$s\" title=\"Közvetlen hivatkozás %4$s\" rel=\"bookmark\">Közvetlen hivatkozás</a>."
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:315
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:198
+msgid "% Comments"
+msgstr "% hozzászólás"
+
+#: inc/template-tags.php:198
+msgid "1 Comment"
+msgstr "1 hozzászólás"
+
+#: inc/template-tags.php:198
+msgid "Leave a comment"
+msgstr "Megjegyzés hozzáfűzése"
+
+#: inc/template-tags.php:187
+msgid "Featured"
+msgstr "Kiemelt"
+
+#: inc/template-tags.php:95
+msgid "Your comment is awaiting moderation."
+msgstr "Hozzászólásod moderálásra vár."
+
+#: inc/template-tags.php:89
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s - %2$s"
+
+#: inc/template-tags.php:84
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">szerint:</span>"
+
+#: inc/template-tags.php:75
+msgid "Pingback:"
+msgstr "Visszajelzés:"
+
+#: inc/template-tags.php:50
+msgid "Post navigation"
+msgstr "Navigálás a bejegyzések között"
+
+#: inc/template-tags.php:19
+msgid "Posts navigation"
+msgstr "Bejegyzés navigáció"
+
+#: image.php:30
+msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
+msgstr "<span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> - <a href=\"%3$s\" title=\"Hivatkozás a teljes képmérethez\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Vissza: %7$s\" rel=\"gallery\">%8$s</a>"
+
+#: inc/extras.php:113
+msgid "Page %s"
+msgstr "%s oldal"
+
+#: header.php:37
+msgid "Menu"
+msgstr "Menü"
+
+#: header.php:23
+msgid "Skip to content"
+msgstr "Tovább a tartalomra"
+
+#: functions.php:121
+msgid "Main Sidebar"
+msgstr "Fő oldalsáv"
+
+#. translators: If there are characters in your language that are not supported
+#. * by Droid Serif, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:87
+msgctxt "Droid Serif font: on or off"
+msgid "on"
+msgstr "be"
+
+#. translators: If there are characters in your language that are not supported
+#. * by Source Sans Pro, translate this to 'off'. Do not translate into your
+#. own language.
+#: functions.php:82
+msgctxt "Source Sans Pro font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:49
+msgid "Social Menu"
+msgstr "Közösségi menü"
+
+#: functions.php:48
+msgid "Primary Menu"
+msgstr "Elsődleges menü"
+
+#: footer.php:21
+msgid "Theme: %1$s by %2$s."
+msgstr "Sablon: %1$s Szerző: %2$s."
+
+#: footer.php:19
+msgid "Proudly powered by %s"
+msgstr "Köszönjük %s!"
+
+#: footer.php:19
+msgid "A Semantic Personal Publishing Platform"
+msgstr "Személyes Publikációs Platform"
+
+#: content-none.php:26
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Úgy tűnik, nem található az, amire gondoltunk. Talán, egy újabb keresés segíthet."
+
+#: content-none.php:21
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Elnézést, nem találunk a keresési feltételeknek megfelelő eredményt. Másik kulcsszóval, kifejezéssel újra kellene kezdeni egy keresést."
+
+#: content-none.php:17
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Készen állunk az első bejegyzés közzétételére? <a href=\"%1$s\">Kezdőlépések</a>."
+
+#: content-none.php:11
+msgid "Nothing Found"
+msgstr "Nincs megfelelő találat"
+
+#: content-grid.php:26 content-page.php:25 content-testimonial.php:21
+#: image.php:41 inc/template-tags.php:75 inc/template-tags.php:99
+#: inc/template-tags.php:203 page-templates/front-page.php:28
+msgid "Edit"
+msgstr "Szerkesztés"
+
+#: content-grid.php:12 inc/template-tags.php:226
+msgid "Permalink to %s"
+msgstr "Közvetlen hivatkozás: %s"
+
+#: content-aside.php:29 content-gallery.php:30 content-image.php:31
+#: content-link.php:28 content-page.php:19 content-quote.php:29
+#: content-video.php:29 content.php:36 image.php:61
+msgid "Pages:"
+msgstr "Oldalak:"
+
+#: content-aside.php:26 content-gallery.php:27 content-image.php:28
+#: content-link.php:25 content-quote.php:26 content-video.php:26 content.php:33
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Olvasás folytatása <span class=\"meta-nav\">&rarr;</span>"
+
+#: comments.php:48
+msgid "Comments are closed."
+msgstr "Hozzászólások lezárva"
+
+#: comments.php:26 comments.php:38
+msgid "Newer Comments &rarr;"
+msgstr "Újabb hozzászólás &rarr;"
+
+#: comments.php:25 comments.php:37
+msgid "&larr; Older Comments"
+msgstr "&larr; Korábbi hozzászólás"
+
+#: comments.php:24 comments.php:36
+msgid "Comment navigation"
+msgstr "Hozzászólás navigáció"
+
+#: comments.php:17
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "&ldquo;%2$s&rdquo; bejegyzéshez egy hozzászólás"
+msgstr[1] "&ldquo;%2$s&rdquo; bejegyzéshez %1$ hozzászólás"
+
+#: archive-jetpack-testimonial.php:29
+msgid "Testimonials"
+msgstr "Vélemények"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "A keresett oldal vagy bejegyzés nem található. Próbálkozzunk meg az alábbi hivatkozásokkal vagy esetleg egy kereséssel."
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Hoppá! A keresett oldal nem található."

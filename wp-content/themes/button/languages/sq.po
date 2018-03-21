@@ -1,0 +1,160 @@
+# Translation of Button in Albanian
+# This file is distributed under the same license as the Button package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-10-24 03:28:01+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Button\n"
+
+#: header.php:39
+msgid "Menu"
+msgstr "Menu"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:121
+msgid " "
+msgstr " "
+
+#: search.php:17
+msgid "Search Results for: %s"
+msgstr "Përfundime Kërkimi për: %s"
+
+#: inc/template-tags.php:104
+msgid "% Comments"
+msgstr "% Komente"
+
+#: inc/template-tags.php:104
+msgid "Leave a comment"
+msgstr "Lini një koment"
+
+#: inc/template-tags.php:104
+msgid "1 Comment"
+msgstr "! Koment"
+
+#: inc/template-tags.php:23
+msgid "Posts navigation"
+msgstr "Lëvizje te postimet"
+
+#: inc/template-tags.php:27
+msgid "Older posts"
+msgstr "Postimet më të vjetra"
+
+#: inc/template-tags.php:31
+msgid "Newer posts"
+msgstr "Postime më të reja"
+
+#: inc/template-tags.php:56
+msgid "Post navigation"
+msgstr "Lëvizje te postimet"
+
+#: inc/extras.php:56
+msgid "Page %s"
+msgstr "Faqe %s"
+
+#. Translators: If there are characters in your language that are not
+#. * supported by Lato, translate this to 'off'. Do not translate
+#. * into your own language.
+#: functions.php:154
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr "on"
+
+#. Translators: If there are characters in your language that are not
+#. * supported by Lora, translate this to 'off'. Do not translate
+#. * into your own language.
+#: functions.php:160
+msgctxt "Lora font: on or off"
+msgid "on"
+msgstr "on"
+
+#: header.php:23
+msgid "Skip to content"
+msgstr "Kaloni te lënda"
+
+#: footer.php:19
+msgid "Theme: %1$s by %2$s."
+msgstr "Temë: %1$s nga %2$s."
+
+#: functions.php:47
+msgid "Top Menu"
+msgstr "Menu Kryesore"
+
+#: functions.php:48
+msgid "Social Links Menu"
+msgstr "Menu Lidhjesh Shoqërore"
+
+#: functions.php:104
+msgid "Sidebar"
+msgstr "Anështyllë"
+
+#: footer.php:17
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: footer.php:17
+msgid "Proudly powered by %s"
+msgstr "Bazohet me krenari në %s"
+
+#: components/content-page.php:28 inc/template-tags.php:108
+msgid "Edit"
+msgstr "Përpuno"
+
+#: components/content-none.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Duket se nuk gjejmë dot ç&rsquo;po kërkonit. Ndoshta mund t&#8217;ju ndihë kërkimi."
+
+#: components/content-none.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Gati për botimin e postimit tuaj të parë? <a href=\"%1$s\">Fillojani këtu</a>."
+
+#: components/content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Na ndjeni, por nuk u përputh gjë me termat tuaj të kërkimit. Ju lutemi, riprovoni me ndoca fjalëkyçe të tjera."
+
+#: components/content-none.php:14
+msgid "Nothing Found"
+msgstr "Nuk u Gjet Gjë"
+
+#: comments.php:42 comments.php:64
+msgid "Older Comments"
+msgstr "Komentet Më të Vjetra"
+
+#: comments.php:43 comments.php:65
+msgid "Newer Comments"
+msgstr "Komentet Më të Reja"
+
+#: comments.php:77
+msgid "Comments are closed."
+msgstr "Komentet janë të mbyllura."
+
+#. translators: %1$s: smiley
+#: 404.php:44
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Provoni të shihni te arkivat mujore. %1$s"
+
+#: comments.php:30
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Një mendim mbi &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s mendime mbi &ldquo;%2$s&rdquo;"
+
+#: comments.php:39 comments.php:61
+msgid "Comment navigation"
+msgstr "Lëvizje te komentet"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Hmm! Ajo faqe nuk gjendet dot."
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Duket se nuk u gjet gjë në këtë vend. Mos ndoshta të provohej një nga lidhjet më poshtë ose një kërkim?"
+
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr "Kategoritë Më të Përdorura"

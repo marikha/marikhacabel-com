@@ -1,0 +1,141 @@
+# Translation of Button in Hebrew
+# This file is distributed under the same license as the Button package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-11-14 03:31:57+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Button\n"
+
+#. Template Name of the plugin/theme
+#: wp-content/themes/pub/button/full-width-page.php
+msgid "Full Width, No Sidebar"
+msgstr "רוחב מלא, ללא עמודה צידית"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "נראה כי אין כאן כלום. אולי כדאי לנסות את אפשרות החיפוש."
+
+#. translators: %s: Name of current post.
+#: components/content.php:50
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "להמשיך לקרוא %s <span class=\"meta-nav\">&larr;</span>"
+
+#: header.php:39
+msgid "Menu"
+msgstr "תפריט"
+
+#: search.php:17
+msgid "Search Results for: %s"
+msgstr "תוצאות חיפוש עבור %s"
+
+#. translators: used between list items, there is a space
+#: inc/template-tags.php:79
+msgid " &middot; "
+msgstr "&middot;"
+
+#: inc/template-tags.php:46
+msgid "% Comments"
+msgstr "% תגובות"
+
+#: inc/template-tags.php:46
+msgid "Leave a comment"
+msgstr "כתיבת תגובה"
+
+#: inc/template-tags.php:46
+msgid "1 Comment"
+msgstr "תגובה אחת"
+
+#. Translators: If there are characters in your language that are not
+#. * supported by Lato, translate this to 'off'. Do not translate
+#. * into your own language.
+#: functions.php:174
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr "off"
+
+#. Translators: If there are characters in your language that are not
+#. * supported by Lora, translate this to 'off'. Do not translate
+#. * into your own language.
+#: functions.php:180
+msgctxt "Lora font: on or off"
+msgid "on"
+msgstr "off"
+
+#: header.php:23
+msgid "Skip to content"
+msgstr "דלג לתוכן"
+
+#: footer.php:19
+msgid "Theme: %1$s by %2$s."
+msgstr "ערכת עיצוב: %1$s של %2$s"
+
+#: functions.php:47
+msgid "Top Menu"
+msgstr "תפריט עליון"
+
+#: functions.php:48
+msgid "Social Links Menu"
+msgstr "תפריט קישורים חברתיים"
+
+#: functions.php:124
+msgid "Sidebar"
+msgstr " סרגל צדדי"
+
+#: footer.php:17
+msgid "http://wordpress.org/"
+msgstr "http://he.wordpress.org/"
+
+#: footer.php:17
+msgid "Proudly powered by %s"
+msgstr "פועל על %s"
+
+#: components/content-page.php:28 inc/template-tags.php:50
+msgid "Edit"
+msgstr "עריכה"
+
+#: components/content-none.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "נראה כי לא ניתן למצוא את מה שחיפשת, אולי חיפוש יעזור."
+
+#: components/content-none.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "מוכן לפרסם את הפוסט הראשון שלך? <a href=\"%1$s\">התחל כאן</a>."
+
+#: components/content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "לא נמצאו תוצאות התואמות לביטוי החיפוש, ניתן לנסות שוב עם ביטויים אחרים."
+
+#: components/content-none.php:14
+msgid "Nothing Found"
+msgstr "לא נמצא כלום"
+
+#: comments.php:42 comments.php:64
+msgid "Older Comments"
+msgstr "תגובות ישנות"
+
+#: comments.php:43 comments.php:65
+msgid "Newer Comments"
+msgstr "תגובות חדשות"
+
+#: comments.php:77
+msgid "Comments are closed."
+msgstr "סגור לתגובות."
+
+#: comments.php:30
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "תגובה אחת בנושא &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s תגובות בנושא &ldquo;%2$s&rdquo;"
+
+#: comments.php:39 comments.php:61
+msgid "Comment navigation"
+msgstr "ניווט תגובות"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "העמוד לא נמצא."

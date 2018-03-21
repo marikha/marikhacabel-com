@@ -1,0 +1,228 @@
+@import "../../sass/variables";
+
+/* Full-width Images layout styles */
+
+.full-width-images {
+
+  .excerpt,
+  .entry {
+    line-height: 0; // remove space below featured image
+  }
+  .entry-container,
+  .excerpt-container {
+    line-height: 1.5;
+  }
+  .excerpt {
+    position: relative;
+    min-height: 100px;
+  }
+  .featured-image {
+    height: auto;
+    padding-bottom: 0;
+    max-width: 100%;
+  }
+  .excerpt-container {
+    position: absolute;
+    display: table;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: 0 11.11%;
+    background: none;
+
+    // flexbox for modern browsers
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .overlay-link {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 9;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(17,17,17,0.6);
+    opacity: 1;
+  }
+  .excerpt-header {
+
+    i {
+      font-size: 1.625em; /* 26px / 16px */
+      line-height: 1.85;
+      color: white;
+      opacity: 0.6;
+    }
+    &:after {
+      display: none;
+    }
+  }
+  .excerpt-title {
+    color: white;
+    opacity: 0.9;
+    font-size: 1.313em; /* 21px / 16px */
+    line-height: 1.143;
+
+    a {
+      color: white;
+
+      &:link,
+      &:visited {
+        color: white;
+      }
+      &:hover,
+      &:active,
+      &:focus {
+        color: white;
+      }
+    }
+  }
+  .excerpt:not(.has-post-thumbnail){
+    background: $gray-very-dark;
+    height: 0;
+    width: 100%;
+    padding-bottom: 60%;
+  }
+  .loop-pagination {
+    clear: both;
+    padding-top: $baseline-height * 3;
+  }
+  /* post page */
+
+  // in case image isn't width of post
+  .singular-post {
+
+    .featured-image {
+      display: block;
+      margin: 0 auto;
+    }
+    .featured-image-container {
+      background: $gray-dark;
+    }
+  }
+  &.singular-page {
+
+    .featured-image {
+      margin: 0;
+    }
+    .entry {
+      padding-top: 0;
+      margin-top: 0;
+    }
+    .entry-header {
+      padding-top: $baseline-height * 2;
+    }
+  }
+}
+.full-width-images.title-below {
+
+  .excerpt {
+    background: none;
+  }
+  .excerpt-container {
+    position: relative;
+    opacity: 1;
+  }
+  .excerpt-header {
+    padding: $baseline-height / 2 $baseline-height $baseline-height;
+  }
+  .excerpt-title {
+    font-size: 1em;
+    line-height: 1.5;
+  }
+}
+/* 800px */
+@media all and (min-width: 50em){
+
+  .full-width-images {
+
+    .excerpt {
+      margin-bottom: $baseline-height * 2;
+      background: none;
+      min-height: 200px;
+
+      &.even {
+
+        .featured-image {
+          right: 0;
+        }
+      }
+      &.odd {
+
+        .excerpt-container {
+          width: 100%;
+        }
+      }
+    }
+    .excerpt:not(.has-post-thumbnail){
+      padding-bottom: 50%;
+    }
+    .featured-image {
+      position: relative;
+      width: auto;
+      height: auto;
+    }
+    .featured-image-container {
+      background: $gray-dark;
+      text-align: center;
+    }
+    .excerpt-container,
+    .overlay {
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+    .overlay {
+      background: rgba(17,17,17,0.9);
+    }
+    .overlay-link {
+
+      &:hover,
+      &:active,
+      &:focus {
+
+        ~ div {
+          opacity: 1;
+
+          i {
+            opacity: 1;
+          }
+        }
+      }
+    }
+    .excerpt-title {
+      font-size: 2.375em;
+      line-height: 1.263;
+    }
+    .excerpt-header {
+
+      i {
+        font-size: 2.625em; /* 42px / 16px */
+        line-height: 1.143;
+        margin-top: 18px;
+      }
+    }
+  }
+}
+
+/* 2:1 image-height setup */
+
+.full-width-images.ratio {
+
+  .featured-image {
+    position: relative;
+    height: 0;
+    padding-bottom: 50%;
+  }
+}

@@ -1,0 +1,174 @@
+# Translation of WordPress.com - Themes - Orvis in Albanian
+# This file is distributed under the same license as the WordPress.com - Themes - Orvis package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-06-03 03:52:05+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Language: sq_AL\n"
+"Project-Id-Version: WordPress.com - Themes - Orvis\n"
+
+#. Template Name of the plugin/theme
+#: wp-content/themes/pub/orvis/page-templates/portfolio-page.php
+msgid "Portfolio Page Template"
+msgstr "Gjedhe Faqeje Portofol"
+
+#. translators: %s: Name of current post.
+#: template-parts/content.php:25
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Vazhdoni me leximin e %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: template-parts/content-page.php:27
+#: template-parts/content-portfolio-single.php:26
+#: template-parts/content-single.php:29 template-parts/content.php:35
+msgid "Page"
+msgstr "Faqe"
+
+#: template-parts/content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Na ndjeni, por &#8217;u përputh gjë me kriterin tuaj të kërkimit. Ju lutemi, riprovoni me ndonjë fjalëkyç tjetër."
+
+#: template-parts/content-none.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Gati për botimin e postimit tuaj të parë? <a href=\"%1$s\">Fillojani këtu</a>."
+
+#: single.php:30
+msgctxt "Parent post link"
+msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
+msgstr "<span class=\"meta-nav\">Botuar te</span><span class=\"post-title\">%title</span>"
+
+#: single-jetpack-portfolio.php:30 single.php:39
+msgid "Previous post:"
+msgstr "Postimi i mëparshëm:"
+
+#: single-jetpack-portfolio.php:29 single.php:38
+msgid "Previous"
+msgstr "E mëparshmja"
+
+#: single-jetpack-portfolio.php:27 single.php:36
+msgid "Next post:"
+msgstr "Postimi vijues"
+
+#: single-jetpack-portfolio.php:26 single.php:35
+msgid "Next"
+msgstr "Pasuesi"
+
+#: search.php:18
+msgid "Search Results for: %s"
+msgstr "Përfundime Kërkimi për: %s"
+
+#: page-templates/portfolio-page.php:87 template-parts/content-none.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Duket se s&#8217;qemë në gjendje të gjenim ç&#8217;po kërkonit. Ndoshta mund t&#8217;ju ndihë kërkimi."
+
+#: page-templates/portfolio-page.php:83
+msgid "Ready to publish your first project? <a href=\"%1$s\">Get started here</a>."
+msgstr "Gati për botimin e projektit tuaj të parë? <a href=\"%1$s\">Fillojani këtu</a>."
+
+#: page-templates/portfolio-page.php:77 template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "S&#8217;u Gjet Gjë"
+
+#: page-templates/portfolio-page.php:35
+msgid "Edit"
+msgstr "Përpunojeni"
+
+#: page-templates/portfolio-page.php:27 template-parts/content-page.php:23
+#: template-parts/content-portfolio-single.php:22
+#: template-parts/content-single.php:25 template-parts/content.php:31
+msgid "Pages:"
+msgstr "Faqe:"
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:91 template-parts/content-page.php:38
+msgid "Edit %s"
+msgstr "Përpunojeni %s"
+
+#: inc/template-tags.php:84
+msgid "% Comments"
+msgstr "% Komente"
+
+#: inc/template-tags.php:84
+msgid "1 Comment"
+msgstr "! Koment"
+
+#: inc/template-tags.php:84
+msgid "Leave a comment"
+msgstr "Lini një koment"
+
+#: inc/template-tags.php:57
+msgid "Featured Post"
+msgstr "Postim i Zgjedhur"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:18 inc/template-tags.php:27 inc/template-tags.php:67
+#: inc/template-tags.php:76
+msgid ", "
+msgstr ", "
+
+#: header.php:40
+msgid "Menu"
+msgstr "Menu"
+
+#: header.php:24
+msgid "Skip to content"
+msgstr "Kaloni te lënda"
+
+#: functions.php:156
+msgid "collapse child menu"
+msgstr "tkurre menunë pjellë"
+
+#: functions.php:155
+msgid "expand child menu"
+msgstr "zgjeroje menunë pjellë"
+
+#: functions.php:98
+msgid "Sidebar"
+msgstr "Anështyllë"
+
+#: functions.php:49 header.php:42
+msgid "Primary Menu"
+msgstr "Menuja Parësore"
+
+#: footer.php:23
+msgid "Theme: %1$s by %2$s."
+msgstr "Temë: %1$s nga %2$s."
+
+#: footer.php:21
+msgid "Proudly powered by %s"
+msgstr "Bazohet me krenari në %s"
+
+#: footer.php:21
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#: comments.php:54
+msgid "Comments are closed."
+msgstr "Komentet janë të mbyllura."
+
+#: comments.php:27
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Një mendim mbi &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s mendime mbi &ldquo;%2$s&rdquo;"
+
+#. translators: %1$s: smiley
+#: 404.php:46
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Provoni të shihni arkivat mujore. %1$s"
+
+#: 404.php:29
+msgid "Most Used Categories"
+msgstr "Kategoritë Më të Përdorura"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Duket se s&#8217;u gjend gjë në këtë vend. Të provohet një nga lidhjet më poshtë ose një kërkim?"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Hmm! Ajo faqe s&#8217;gjendet dot."

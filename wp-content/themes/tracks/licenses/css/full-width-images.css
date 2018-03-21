@@ -1,0 +1,196 @@
+/*===== Variables =====*/
+/* Theme Colors */
+/* Social Media Brand Colors */
+/*===== Mixins =====*/
+/* grid stuff */
+/* Baseline Grid
+background-image: linear-gradient(#fff 23px, #00fffc 24px, #fff 0px);
+background-size: 1px 24px; /* this is a 24px baseline grid */
+/* Column Grid
+background-color: gray;
+background-image: linear-gradient(90deg, transparent 99%, rgba(255,255,255,.5) 0%);
+background-size: 11.1%; /* This is at 6-columns -> just change this # */
+/* Full-width Images layout styles */
+.full-width-images {
+  /* post page */
+}
+.full-width-images .excerpt,
+.full-width-images .entry {
+  line-height: 0;
+}
+.full-width-images .entry-container,
+.full-width-images .excerpt-container {
+  line-height: 1.5;
+}
+.full-width-images .excerpt {
+  position: relative;
+  min-height: 100px;
+}
+.full-width-images .featured-image {
+  height: auto;
+  padding-bottom: 0;
+  max-width: 100%;
+}
+.full-width-images .excerpt-container {
+  position: absolute;
+  display: table;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  padding: 0 11.11%;
+  background: none;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+.full-width-images .overlay-link {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 9;
+}
+.full-width-images .overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(17, 17, 17, 0.6);
+  opacity: 1;
+}
+.full-width-images .excerpt-header i {
+  font-size: 1.625em;
+  /* 26px / 16px */
+  line-height: 1.85;
+  color: white;
+  opacity: 0.6;
+}
+.full-width-images .excerpt-header:after {
+  display: none;
+}
+.full-width-images .excerpt-title {
+  color: white;
+  opacity: 0.9;
+  font-size: 1.313em;
+  /* 21px / 16px */
+  line-height: 1.143;
+}
+.full-width-images .excerpt-title a {
+  color: white;
+}
+.full-width-images .excerpt-title a:link, .full-width-images .excerpt-title a:visited {
+  color: white;
+}
+.full-width-images .excerpt-title a:hover, .full-width-images .excerpt-title a:active, .full-width-images .excerpt-title a:focus {
+  color: white;
+}
+.full-width-images .excerpt:not(.has-post-thumbnail) {
+  background: #111;
+  height: 0;
+  width: 100%;
+  padding-bottom: 60%;
+}
+.full-width-images .loop-pagination {
+  clear: both;
+  padding-top: 4.5em;
+}
+.full-width-images .singular-post .featured-image {
+  display: block;
+  margin: 0 auto;
+}
+.full-width-images .singular-post .featured-image-container {
+  background: #222;
+}
+.full-width-images.singular-page .featured-image {
+  margin: 0;
+}
+.full-width-images.singular-page .entry {
+  padding-top: 0;
+  margin-top: 0;
+}
+.full-width-images.singular-page .entry-header {
+  padding-top: 3em;
+}
+
+.full-width-images.title-below .excerpt {
+  background: none;
+}
+.full-width-images.title-below .excerpt-container {
+  position: relative;
+  opacity: 1;
+}
+.full-width-images.title-below .excerpt-header {
+  padding: 0.75em 1.5em 1.5em;
+}
+.full-width-images.title-below .excerpt-title {
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+/* 800px */
+@media all and (min-width: 50em) {
+  .full-width-images .excerpt {
+    margin-bottom: 3em;
+    background: none;
+    min-height: 200px;
+  }
+  .full-width-images .excerpt.even .featured-image {
+    right: 0;
+  }
+  .full-width-images .excerpt.odd .excerpt-container {
+    width: 100%;
+  }
+  .full-width-images .excerpt:not(.has-post-thumbnail) {
+    padding-bottom: 50%;
+  }
+  .full-width-images .featured-image {
+    position: relative;
+    width: auto;
+    height: auto;
+  }
+  .full-width-images .featured-image-container {
+    background: #222;
+    text-align: center;
+  }
+  .full-width-images .excerpt-container,
+  .full-width-images .overlay {
+    opacity: 0;
+    -webkit-transition: opacity 0.3s ease;
+            transition: opacity 0.3s ease;
+  }
+  .full-width-images .overlay {
+    background: rgba(17, 17, 17, 0.9);
+  }
+  .full-width-images .overlay-link:hover ~ div, .full-width-images .overlay-link:active ~ div, .full-width-images .overlay-link:focus ~ div {
+    opacity: 1;
+  }
+  .full-width-images .overlay-link:hover ~ div i, .full-width-images .overlay-link:active ~ div i, .full-width-images .overlay-link:focus ~ div i {
+    opacity: 1;
+  }
+  .full-width-images .excerpt-title {
+    font-size: 2.375em;
+    line-height: 1.263;
+  }
+  .full-width-images .excerpt-header i {
+    font-size: 2.625em;
+    /* 42px / 16px */
+    line-height: 1.143;
+    margin-top: 18px;
+  }
+}
+/* 2:1 image-height setup */
+.full-width-images.ratio .featured-image {
+  position: relative;
+  height: 0;
+  padding-bottom: 50%;
+}

@@ -1,0 +1,389 @@
+/*
+Theme Name: Orvis
+
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+http://codex.wordpress.org/Right_to_Left_Language_Support
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Elements
+# Layout
+# Navigation
+	## Main Navigation
+	## Pagination
+# Accessibility
+# Widgets
+# Content
+	## Posts & Pages
+	## Comments
+# Jetpack
+	## Infinite Scroll
+	## Recipes
+	## Sharedaddy
+	## Social Menu
+	## Widgets
+# Eventbrite
+# Responsive
+	## x >= 600px
+	## x >= 896px
+	## x >= 1344px
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+	margin-left: 0.4375em;
+	margin-right: 0;
+}
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+blockquote {
+	border-left: 0;
+	border-right: 4px solid #202020;
+	padding-left: 0;
+	padding-right: 24px;
+}
+
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+ul,
+ol {
+	margin-left: 0;
+	margin-right: 1.25em;
+}
+
+li > ul,
+li > ol {
+	margin-left: 0;
+	margin-right: 24px;
+}
+
+/*--------------------------------------------------------------
+# Layout
+--------------------------------------------------------------*/
+.site-branding {
+	margin-left: auto;
+	margin-right: 0;
+	padding-left: 24px;
+	padding-right: 0;
+}
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Main Navigation
+--------------------------------------------------------------*/
+.main-navigation .menu-item-has-children > a {
+	margin-left: 62px;
+	margin-right: 0;
+}
+
+.main-navigation ul ul {
+	margin-left: 0;
+	margin-right: 24px;
+}
+
+/* Dropdown Toggle */
+.dropdown-toggle {
+	left: 0;
+	right: auto;
+}
+
+/*--------------------------------------------------------------
+## Pagination
+--------------------------------------------------------------*/
+.comment-navigation .nav-previous,
+.posts-navigation .nav-previous {
+	float: right;
+}
+
+.comment-navigation .nav-next,
+.posts-navigation .nav-next {
+	float: left;
+	text-align: left;
+}
+
+/*--------------------------------------------------------------
+# Accessibility
+--------------------------------------------------------------*/
+.screen-reader-text:focus {
+	left: auto;
+	right: 5px;
+}
+
+/*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+.widget_categories .children,
+.widget_nav_menu .sub-menu,
+.widget_pages .children {
+	padding-left: 0;
+	padding-right: 24px;
+}
+
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Posts & Pages
+--------------------------------------------------------------*/
+.page-links > .page-links-title {
+	padding-left: 0.5em;
+	padding-right: 0;
+}
+
+/*--------------------------------------------------------------
+## Comments
+--------------------------------------------------------------*/
+.comment-list .children {
+	border-left: 0;
+	border-right: 2px solid;
+	margin-left: 0;
+	margin-right: 24px;
+}
+
+.comment-list .children > .comment {
+	padding-left: 0;
+	padding-right: 24px;
+}
+
+.comment-author .avatar {
+	float: right;
+	margin-left: 6px;
+	margin-right: 0;
+}
+
+/*--------------------------------------------------------------
+# Jetpack
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Infinite Scroll
+--------------------------------------------------------------*/
+#infinite-handle span {
+	border: 0;
+}
+
+.infinite-loader {
+	margin: 0 0 24px;
+}
+
+.infinite-loader .spinner {
+	left: auto !important;
+	right: 5px !important;
+}
+
+/*--------------------------------------------------------------
+## Recipes
+--------------------------------------------------------------*/
+.site-content .jetpack-recipe blockquote {
+	margin-right: 0;
+}
+
+/*--------------------------------------------------------------
+## Sharedaddy
+--------------------------------------------------------------*/
+.comments-area .comment-likes .comment-like-feedback {
+	margin-left: 0;
+	margin-right: 0.5em;
+}
+
+/*--------------------------------------------------------------
+## Social Menu
+--------------------------------------------------------------*/
+.site .jetpack-social-navigation li:first-child {
+	margin-left: 3px;
+	margin-right: 0;
+}
+
+.site .jetpack-social-navigation li:last-child {
+	margin-left: 0;
+	margin-right: 3px;
+}
+
+/*--------------------------------------------------------------
+## Widgets
+--------------------------------------------------------------*/
+/* RSS Links */
+.widget_rss_links ul {
+	margin-right: 0;
+}
+
+.widget_rss_links p a + a {
+	margin-left: 0;
+	margin-right: 11px;
+}
+
+/* Social Media Icons */
+.site .widget_wpcom_social_media_icons_widget li {
+	margin: 0 0 6px 6px;
+}
+
+/*--------------------------------------------------------------
+# Eventbrite
+--------------------------------------------------------------*/
+.eventbrite-event .entry-header span {
+	padding-left: 12px;
+	padding-right: 0;
+}
+
+.eventbrite-event .entry-header span:last-of-type {
+	padding-left: 0;
+}
+
+/*--------------------------------------------------------------
+# Responsive
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## x >= 600px
+--------------------------------------------------------------*/
+@media screen and (min-width: 600px) {
+
+	/* Jetpack */
+	.infinite-loader {
+		margin-bottom: 48px;
+	}
+
+}
+
+/*--------------------------------------------------------------
+## x >= 896px
+--------------------------------------------------------------*/
+@media screen and (min-width: 896px) {
+
+	/* Layout */
+	.portfolio-media,
+	.portfolio-projects,
+	.widget-area  {
+		float: left;
+	}
+
+	body:not(.single-jetpack-portfolio):not(.search) .jetpack-portfolio.hentry,
+	.content-area,
+	.portfolio-content {
+		float: right;
+	}
+
+	.site-info {
+		margin: 0 0 0 auto;
+	}
+
+	/* Navigation */
+	.main-navigation li {
+		float: right;
+	}
+
+	.main-navigation .primary-menu > li:first-child {
+		margin-left: 12px;
+		margin-right: 0;
+	}
+
+	.main-navigation .primary-menu > li:last-child {
+		margin-left: 0;
+		margin-right: 12px;
+	}
+
+	.main-navigation .menu-item-has-children > a:after {
+		margin-left: 0;
+		margin-right: 0.5em;
+	}
+
+	.main-navigation ul ul .menu-item-has-children > a:after {
+		-webkit-transform: rotate(225deg);
+		-moz-transform: rotate(225deg);
+		-ms-transform: rotate(225deg);
+		transform: rotate(225deg);
+	}
+
+	.main-navigation .menu-item-has-children > a {
+		margin-left: 0;
+	}
+
+	.main-navigation ul ul {
+		float: right;
+		margin: 0;
+		left: auto;
+		right: -999em;
+	}
+
+	.main-navigation ul ul ul {
+		left: auto;
+		right: -999em;
+	}
+
+	.main-navigation ul li:hover > ul,
+	.main-navigation ul li.focus > ul {
+		right: auto;
+	}
+
+	.main-navigation ul ul li:hover > ul,
+	.main-navigation ul ul li.focus > ul {
+		left: auto;
+		right: 100%;
+	}
+
+	/* Jetpack */
+	.hentry div#jp-relatedposts div.jp-relatedposts-items .jp-relatedposts-post {
+		float: right;
+	}
+
+}
+
+/*--------------------------------------------------------------
+## x >= 1344px
+--------------------------------------------------------------*/
+@media screen and (min-width: 1344px) {
+
+	/* Layout */
+	body:not(.page) .hentry:not(.jetpack-portfolio) .entry-content,
+	.hentry .entry-summary {
+		float: left;
+	}
+
+	body:not(.page) .hentry:not(.jetpack-portfolio) .entry-footer,
+	.search .hentry .entry-footer {
+		float: right;
+		text-align: left;
+	}
+
+	.large-element {
+		margin-left: 0;
+		margin-right: -324px;
+	}
+
+	.archive:not([class*="jetpack-portfolio"]) .hentry + .hentry:before,
+	.blog .hentry + .hentry:before,
+	.search .hentry + .hentry:before,
+	.infinite-wrap .hentry:before,
+	body:not(.page) .hentry:not(.jetpack-portfolio) .entry-meta,
+	body:not(.page) .hentry:not(.jetpack-portfolio) .entry-title,
+	.search .hentry .entry-meta,
+	.search .hentry .entry-title,
+	body:not(.page) .comments-area {
+		margin-left: 0;
+		margin-right: 324px;
+	}
+
+	div#jp-relatedposts {
+		padding-left: 0;
+		padding-right: 324px;
+	}
+
+}

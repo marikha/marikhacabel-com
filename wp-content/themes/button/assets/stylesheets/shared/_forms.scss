@@ -1,0 +1,96 @@
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+#infinite-handle span button {
+	border: 1px dashed;
+	border-color: $color__border-button;
+	background: $color__background-button;
+	box-shadow: none;
+	color: $color__white;
+	font-size: $font__size-small;
+	font-weight: bold;
+	line-height: 1;
+	margin-top: 5px;
+	margin-left: 5px;
+	outline: 5px solid $color__primary;
+	padding: .75em 1em;
+	text-shadow: none;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: 0.3s;
+
+	&:hover {
+		background: $color__background-button-hover;
+		color: $color__white;
+		outline: 5px solid $color__light-black;
+		box-shadow: none;
+	}
+
+	&:active,
+	&:focus {
+		background: $color__background-button-hover;
+		color: $color__white;
+		outline: 5px solid $color__light-black;
+		box-shadow: none;
+	}
+
+	+ button,
+	+ input[type="button"],
+	+ input[type="reset"],
+	+ input[type="submit"] {
+		margin-left: .75em;
+	}
+}
+
+#infinite-handle span:hover button,
+#infinite-handle span button:hover {
+	background: $color__background-button-hover;
+	outline: 5px solid $color__light-black;
+	box-shadow: none;
+	border: 1px dashed;
+	border-color: $color__border-button;
+	box-shadow: none;
+	color: $color__white;
+	font-size: $font__size-small;
+	font-weight: bold;
+	line-height: 1;
+	margin-top: 5px;
+	margin-left: 5px;
+	padding: .75em 1em;
+	text-shadow: none;
+	text-transform: uppercase;
+	transition: 0.3s;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+textarea {
+	color: $color__text-input;
+	display: inline-block;
+	background: $color__light-grey;
+	border: 1px dashed $color__border-input;
+	border-radius: 3px;
+
+	&:focus {
+		border-color: $color__link;
+		color: $color__text-input-focus;
+		outline: none;
+	}
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"] {
+	padding: .65em .75em;
+}
+
+textarea {
+	padding-left: 3px;
+	width: 100%;
+}

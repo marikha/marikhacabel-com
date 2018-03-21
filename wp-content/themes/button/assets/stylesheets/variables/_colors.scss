@@ -1,0 +1,33 @@
+$color__primary: #bbb;
+$color__white: #fff;
+$color__light-grey: #f3f3f3;
+$color__mid-grey: #ddd;
+$color__dark-grey: #777;
+$color__light-black: #f78769;
+$color__black: #222;
+
+$color__background-body: $color__light-grey;
+$color__background-hr: $color__light-grey;
+$color__background-pre: $color__light-grey;
+$color__background-ins: $color__light-grey;
+$color__background-screen: $color__light-grey;
+
+$color__text-input: $color__dark-grey;
+$color__text-input-focus: darken( $color__dark-grey, 15% );
+$color__text-screen: $color__primary;
+
+$color__background-button: $color__primary;
+$color__background-button-hover: $color__light-black;
+
+$color__link: $color__light-black;
+$color__link-visited: $color__light-black;
+$color__link-hover: $color__primary;
+$color__text-main: $color__dark-grey;
+$color__text-headings: $color__dark-grey;
+
+$color__border-abbr: $color__light-black;
+$color__border-button: $color__white;
+$color__border-button-hover: $color__white;
+$color__border-button-focus: $color__white;
+$color__border-input: $color__mid-grey;
+$color__border-input-focus: $color__light-black;

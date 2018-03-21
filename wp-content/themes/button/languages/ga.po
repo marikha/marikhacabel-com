@@ -1,0 +1,173 @@
+# Translation of Button in Irish
+# This file is distributed under the same license as the Button package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-10-31 03:27:51+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : 4;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Button\n"
+
+#. translators: %s: Name of current post.
+#: components/content.php:50
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "An chuid eile de %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: header.php:39
+msgid "Menu"
+msgstr "Roghchlár"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:121
+msgid " "
+msgstr " "
+
+#. translators: used between list items, there is a space
+#: inc/template-tags.php:138
+msgid " &middot; "
+msgstr " &middot; "
+
+#: search.php:17
+msgid "Search Results for: %s"
+msgstr "Torthaí ar: %s"
+
+#: inc/template-tags.php:104
+msgid "% Comments"
+msgstr "Freagraí: %"
+
+#: inc/template-tags.php:104
+msgid "Leave a comment"
+msgstr "Tabhair freagra"
+
+#: inc/template-tags.php:104
+msgid "1 Comment"
+msgstr "1 Fhreagra Amháin"
+
+#: inc/template-tags.php:23
+msgid "Posts navigation"
+msgstr "Treoraíocht alt"
+
+#: inc/template-tags.php:27
+msgid "Older posts"
+msgstr "Roimhe seo"
+
+#: inc/template-tags.php:31
+msgid "Newer posts"
+msgstr "Ina dhiaidh seo"
+
+#: inc/template-tags.php:56
+msgid "Post navigation"
+msgstr "Treoraíocht alt"
+
+#: inc/extras.php:56
+msgid "Page %s"
+msgstr "Leathanach %s"
+
+#. Translators: If there are characters in your language that are not
+#. * supported by Lato, translate this to 'off'. Do not translate
+#. * into your own language.
+#: functions.php:154
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr "on"
+
+#. Translators: If there are characters in your language that are not
+#. * supported by Lora, translate this to 'off'. Do not translate
+#. * into your own language.
+#: functions.php:160
+msgctxt "Lora font: on or off"
+msgid "on"
+msgstr "on"
+
+#: header.php:23
+msgid "Skip to content"
+msgstr "Léim go halt"
+
+#: footer.php:19
+msgid "Theme: %1$s by %2$s."
+msgstr "Téama: %1$s le %2$s."
+
+#: functions.php:47
+msgid "Top Menu"
+msgstr "Barr-roghchlár"
+
+#: functions.php:48
+msgid "Social Links Menu"
+msgstr "Roghchlár Sóisialta"
+
+#: functions.php:104
+msgid "Sidebar"
+msgstr "Taobh-Bharra"
+
+#: footer.php:17
+msgid "http://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#: footer.php:17
+msgid "Proudly powered by %s"
+msgstr "Le cumhacht %s"
+
+#: components/content-page.php:28 inc/template-tags.php:108
+msgid "Edit"
+msgstr "Eagar"
+
+#: components/content-none.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Sén chaoi nár frítheadh an rud a bhí tú a iarraidh. B’fhéidir go gcuartófá é."
+
+#: components/content-none.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "bhFuil tú réidh le halt a fhoilsiú? <a href=\"%1$s\">Féadfaidh tú tosaí anseo</a>."
+
+#: components/content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Sén chaoi nár frítheadh na téarmaí a chuartaigh tú. D’fhéadfá focla eile a chuartú."
+
+#: components/content-none.php:14
+msgid "Nothing Found"
+msgstr "Dheamhan toradh air"
+
+#: comments.php:42 comments.php:64
+msgid "Older Comments"
+msgstr "Seanfhreagraí"
+
+#: comments.php:43 comments.php:65
+msgid "Newer Comments"
+msgstr "Freagraí Níos Nuacha"
+
+#: comments.php:77
+msgid "Comments are closed."
+msgstr "Tá na freagraí dúnta."
+
+#. translators: %1$s: smiley
+#: 404.php:44
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Amharc ar na cartlanna míosa. %1$s"
+
+#: comments.php:30
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Aon tuairim amháin ar “%2$s”"
+msgstr[1] "%1$s thuairim ar “%2$s”"
+msgstr[2] "%1$s thuairim ar “%2$s”"
+msgstr[3] "%1$s dtuairim ar “%2$s”"
+msgstr[4] "%1$s de thuairimí ar “%2$s”"
+
+#: comments.php:39 comments.php:61
+msgid "Comment navigation"
+msgstr "Treoraíocht freagartha"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ab bu búna! Dheamhan fáil ar bith ar an leathanach sin."
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Sén chaoi nár fríothadh tada anseo. B’fhéidir go mbreathnófá ar cheann de na naisc seo thíos nó go gcuartófá rud éigin."
+
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr "Ranganna Coitianta"

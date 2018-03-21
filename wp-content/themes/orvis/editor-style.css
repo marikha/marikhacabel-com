@@ -1,0 +1,421 @@
+/*
+Theme Name: Orvis
+Description: Used to style the TinyMCE editor.
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Body
+# Typography
+# Elements
+# Alignments
+# Media
+	## Caption
+	## Galleries
+# RTL
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Body
+--------------------------------------------------------------*/
+body {
+	color: #202020;
+	font-family: Karla, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	margin: 24px 48px;
+	max-width: 600px;
+	vertical-align: baseline;
+}
+
+body.post-type-page {
+	max-width: 924px;
+}
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+	font-family: Karla, sans-serif;
+	font-weight: bold;
+	margin: 0 0 24px;
+}
+
+h1 {
+	font-size: 40px;
+	line-height: 1.2;
+}
+
+h2 {
+	font-size: 32px;
+	line-height: 1.125;
+}
+
+h3 {
+	font-size: 25px;
+	line-height: 1.2;
+}
+
+h4 {
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+h5 {
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+h6 {
+	font-size: 13px;
+	line-height: 1.3847;
+}
+
+p {
+	margin: 0 0 24px;
+}
+
+b,
+strong {
+	font-weight: bold;
+}
+
+dfn,
+cite,
+em,
+i {
+	font-style: italic;
+}
+
+blockquote {
+	border-left: 4px solid #eee;
+	color: #707070;
+	font-size: 20px;
+	font-style: italic;
+	line-height: 1.5;
+	margin: 0 0 24px;
+	padding-left: 24px;
+}
+
+blockquote p {
+	margin-bottom: 12px;
+}
+
+blockquote cite,
+blockquote small {
+	color: #202020;
+	display: block;
+	font-size: inherit;
+	font-style: normal;
+}
+
+address {
+	margin: 0 0 24px;
+}
+
+code,
+pre,
+kbd,
+tt,
+var {
+	background: #eee;
+	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+	padding: 0 0.25em;
+}
+
+pre {
+	margin-bottom: 24px;
+	max-width: 100%;
+	overflow: auto;
+	padding: 24px;
+}
+
+abbr,
+abbr[title],
+acronym {
+	border-bottom: 2px dotted;
+}
+
+mark,
+ins {
+	background: #707070;
+	color: #fff;
+	padding: 0 0.25em;
+	text-decoration: none;
+}
+
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sup {
+	top: -0.5em;
+}
+
+sub {
+	bottom: -0.25em;
+}
+
+small {
+	font-size: 80%;
+}
+
+big {
+	font-size: 125%;
+}
+
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+hr {
+	background: #202020;
+	border: 0;
+	height: 2px;
+	margin-bottom: 24px;
+}
+
+ul,
+ol {
+	margin: 0 0 24px 1.25em;
+	padding: 0;
+}
+
+ul {
+	list-style: disc;
+}
+
+ol {
+	list-style: decimal;
+}
+
+li > ul,
+li > ol {
+	margin-bottom: 0;
+	margin-left: 24px;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin: 0 24px 24px;
+}
+
+table,
+th,
+td,
+.mce-item-table,
+.mce-item-table th,
+.mce-item-table td {
+	border: 2px solid;
+}
+
+table,
+.mce-item-table {
+	border-collapse: separate;
+	border-spacing: 0;
+	border-width: 2px 0 0 2px;
+	margin: 0 0 24px;
+	table-layout: fixed;
+	width: 100%;
+}
+
+th,
+td,
+.mce-item-table th,
+.mce-item-table td {
+	padding: 0.25em;
+}
+
+table th,
+.mce-item-table th {
+	border-width: 0 2px 2px 0;
+}
+
+table td,
+.mce-item-table td {
+	border-width: 0 2px 2px 0;
+}
+
+img {
+	border: 0;
+	height: auto;
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+a img {
+	display: block;
+}
+
+figure {
+	margin: 0;
+}
+
+a {
+	box-shadow: 0 2px 0 0;
+	color: #202020;
+	text-decoration: none;
+}
+
+fieldset {
+	border: 2px solid;
+	margin: 0 0 24px;
+	padding: 24px;
+}
+
+/*--------------------------------------------------------------
+# Alignments
+--------------------------------------------------------------*/
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 24px;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 24px;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*--------------------------------------------------------------
+# Media
+--------------------------------------------------------------*/
+embed,
+iframe,
+object,
+video,
+.fb_iframe_widget {
+	margin-bottom: 24px;
+	max-width: 100%;
+}
+
+.wp-audio-shortcode a,
+.wp-playlist a {
+	box-shadow: none;
+}
+
+/*--------------------------------------------------------------
+## Caption
+--------------------------------------------------------------*/
+.wp-caption {
+	margin-bottom: 24px;
+	max-width: auto;
+}
+
+.wp-caption img[class*="wp-image-"] {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wp-caption .wp-caption-text {
+	margin: 12px 0 0;
+}
+
+.wp-caption-dd,
+.wp-caption-text {
+	color: #707070;
+	font-size: 13px;
+	line-height: 1.3847;
+	padding: 3px 0 0;
+}
+
+/*--------------------------------------------------------------
+## Galleries
+--------------------------------------------------------------*/
+.mce-content-body .wpview-wrap {
+	margin-bottom: 24px;
+}
+
+.gallery {
+	margin: -12px 0 12px;
+	padding: 0;
+}
+
+.gallery .gallery-item {
+	display: inline-block;
+	margin: 0;
+	padding: 12px;
+	text-align: center;
+	vertical-align: top;
+	width: 100%;
+}
+
+.gallery-columns-1 .gallery-item {
+	max-width: 100%;
+}
+
+.gallery-columns-2 .gallery-item {
+	max-width: 50%;
+}
+
+.gallery-columns-4 .gallery-item {
+	max-width: 25%;
+}
+
+.gallery-columns-5 .gallery-item {
+	max-width: 20%;
+}
+
+.gallery-columns-6 .gallery-item {
+	max-width: 16.66%;
+}
+
+.gallery-columns-7 .gallery-item {
+	max-width: 14.28%;
+}
+
+.gallery-columns-8 .gallery-item {
+	max-width: 12.5%;
+}
+
+.gallery-columns-9 .gallery-item {
+	max-width: 11.11%;
+}
+
+.gallery-caption {
+	display: block;
+}
+
+/*--------------------------------------------------------------
+# RTL
+--------------------------------------------------------------*/
+.rtl blockquote {
+	border-left: 0;
+	border-right: 4px solid #eee;
+	padding-left: 0;
+	padding-right: 24px;
+}
+
+.rtl ul,
+.rtl ol {
+	margin-left: 0;
+	margin-right: 1.25em;
+}
+
+.rtl li > ul,
+.rtl li > ol {
+	margin-left: 0;
+	margin-right: 24px;
+}

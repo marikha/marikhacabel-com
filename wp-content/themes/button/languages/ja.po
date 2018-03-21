@@ -1,0 +1,144 @@
+# Translation of Button in Japanese
+# This file is distributed under the same license as the Button package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-11-14 03:31:57+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Button\n"
+
+#. Template Name of the plugin/theme
+#: wp-content/themes/pub/button/full-width-page.php
+msgid "Full Width, No Sidebar"
+msgstr "全幅、サイドバーなし"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "こちらには何もありません。検索をお試しください。"
+
+#. translators: %s: Name of current post.
+#: components/content.php:50
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "%s の続きを読む <span class=\"meta-nav\">&rarr;</span>"
+
+#: header.php:39
+msgid "Menu"
+msgstr "メニュー"
+
+#: inc/template-tags.php:174
+msgid "Continue reading <span class=\"screen-reader-text\">%1$s</span>"
+msgstr "<span class=\"screen-reader-text\">%1$s</span> の続きを読む"
+
+#: search.php:17
+msgid "Search Results for: %s"
+msgstr "検索結果: %s"
+
+#. translators: used between list items, there is a space
+#: inc/template-tags.php:79
+msgid " &middot; "
+msgstr " &middot; "
+
+#: inc/template-tags.php:46
+msgid "% Comments"
+msgstr "%件のコメント"
+
+#: inc/template-tags.php:46
+msgid "Leave a comment"
+msgstr "コメントをどうぞ"
+
+#: inc/template-tags.php:46
+msgid "1 Comment"
+msgstr "1件のコメント"
+
+#. Translators: If there are characters in your language that are not
+#. * supported by Lato, translate this to 'off'. Do not translate
+#. * into your own language.
+#: functions.php:174
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr "on"
+
+#. Translators: If there are characters in your language that are not
+#. * supported by Lora, translate this to 'off'. Do not translate
+#. * into your own language.
+#: functions.php:180
+msgctxt "Lora font: on or off"
+msgid "on"
+msgstr "on"
+
+#: header.php:23
+msgid "Skip to content"
+msgstr "コンテンツへ移動"
+
+#: footer.php:19
+msgid "Theme: %1$s by %2$s."
+msgstr "Theme: %1$s by %2$s."
+
+#: functions.php:47
+msgid "Top Menu"
+msgstr "トップメニュー"
+
+#: functions.php:48
+msgid "Social Links Menu"
+msgstr "﻿ソーシャルリンクメニュー"
+
+#: functions.php:124
+msgid "Sidebar"
+msgstr "サイドバー"
+
+#: footer.php:17
+msgid "http://wordpress.org/"
+msgstr "http://ja.wordpress.org/"
+
+#: footer.php:17
+msgid "Proudly powered by %s"
+msgstr "Proudly powered by %s"
+
+#: components/content-page.php:28 inc/template-tags.php:50
+msgid "Edit"
+msgstr "編集"
+
+#: components/content-none.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "お探しのコンテンツを見つけられませんでした。検索をお試しください。"
+
+#: components/content-none.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "最初の投稿をする準備ができましたか ?  <a href=\"%1$s\">ここからスタート</a>してください。"
+
+#: components/content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "ご指定の検索条件に一致する投稿がありませんでした。他のキーワードでもう一度検索してみてください。"
+
+#: components/content-none.php:14
+msgid "Nothing Found"
+msgstr "何も見つかりませんでした。"
+
+#: comments.php:42 comments.php:64
+msgid "Older Comments"
+msgstr "過去のコメント"
+
+#: comments.php:43 comments.php:65
+msgid "Newer Comments"
+msgstr "新しいコメント"
+
+#: comments.php:77
+msgid "Comments are closed."
+msgstr "コメントは受け付けていません。"
+
+#: comments.php:30
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "&ldquo;%2$s&rdquo; への%1$s件のフィードバック"
+
+#: comments.php:39 comments.php:61
+msgid "Comment navigation"
+msgstr "コメントナビゲーション"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "﻿ページが見つかりません。"

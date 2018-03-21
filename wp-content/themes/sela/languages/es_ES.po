@@ -1,0 +1,348 @@
+# Translation of WordPress.com - Themes - Sela in Spanish (Spain)
+# This file is distributed under the same license as the WordPress.com - Themes - Sela package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-01-04 12:58:13+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Language: es\n"
+"Project-Id-Version: WordPress.com - Themes - Sela\n"
+
+#: functions.php:161
+msgid "Second Front Page Widget Area"
+msgstr "Segunda area de widgets de página principal"
+
+#: functions.php:153
+msgid "First Front Page Widget Area"
+msgstr "Primer area de widgets de página principal"
+
+#: functions.php:145
+msgid "Third Footer Widget Area"
+msgstr "Tercera área de widgets del pie"
+
+#: functions.php:137
+msgid "Second Footer Widget Area"
+msgstr "Segunda área de widgets del pie"
+
+#: functions.php:129
+msgid "First Footer Widget Area"
+msgstr "Primera área de widgets del pie"
+
+#. Template Name of the plugin/theme
+#: wp-content/themes/pub/sela/page-templates/full-width-page.php
+msgid "Full Width Page"
+msgstr "Página de ancho completo"
+
+#. Template Name of the plugin/theme
+#: wp-content/themes/pub/sela/page-templates/front-page.php
+msgid "Front Page"
+msgstr "Portada"
+
+#. Author URI of the plugin/theme
+#: wp-content/themes/pub/sela/style.css
+msgid "https://wordpress.com/themes/"
+msgstr "https://es.wordpress.com/themes/"
+
+#. Author of the plugin/theme
+#: wp-content/themes/pub/sela/style.css
+msgid "Automattic"
+msgstr "Automattic"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Resultados de la búsqueda para: %s"
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/template-tags.php:419
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: inc/template-tags.php:421
+msgid "Archives"
+msgstr "Archivos"
+
+#: inc/template-tags.php:410
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "Audio"
+
+#: inc/template-tags.php:415
+msgid "Archives: %s"
+msgstr "Archivos: %s"
+
+#: inc/template-tags.php:412
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "Chats"
+
+#: inc/template-tags.php:406
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "Enlaces"
+
+#: inc/template-tags.php:408
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "Estatus"
+
+#: inc/template-tags.php:400
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "Imágenes"
+
+#: inc/template-tags.php:404
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "Citas"
+
+#: inc/template-tags.php:402
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "Vídeos"
+
+#: inc/template-tags.php:398
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "Galerías"
+
+#: inc/template-tags.php:393
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "j F, Y"
+
+#: inc/template-tags.php:396
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "Asides"
+
+#: inc/template-tags.php:393
+msgid "Day: %s"
+msgstr "Día: %s"
+
+#: inc/template-tags.php:391
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: inc/template-tags.php:391
+msgid "Month: %s"
+msgstr "Mes: %s"
+
+#: inc/template-tags.php:389
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: inc/template-tags.php:389
+msgid "Year: %s"
+msgstr "Año: %s"
+
+#: inc/template-tags.php:387
+msgid "Author: %s"
+msgstr "Autor: %s"
+
+#: inc/template-tags.php:383
+msgid "Category: %s"
+msgstr "Categoría: %s"
+
+#: inc/template-tags.php:385
+msgid "Tag: %s"
+msgstr "Etiqueta: %s"
+
+#: inc/template-tags.php:325
+msgid "<a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">Permalink</a>."
+msgstr "<a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">Enlace permanente</a>."
+
+#: inc/template-tags.php:333
+msgid "Posted in: %1$s"
+msgstr "Publicado en: %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:323
+msgid "Tagged: %2$s"
+msgstr "Etiquetado: %2$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:315
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:198
+msgid "% Comments"
+msgstr "% comentarios"
+
+#: inc/template-tags.php:198
+msgid "1 Comment"
+msgstr "1 Comentario"
+
+#: inc/template-tags.php:198
+msgid "Leave a comment"
+msgstr "Deja un comentario"
+
+#: inc/template-tags.php:187
+msgid "Featured"
+msgstr "Destacado"
+
+#: inc/template-tags.php:95
+msgid "Your comment is awaiting moderation."
+msgstr "Tu comentario está pendiente de moderación."
+
+#: inc/template-tags.php:89
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s a las %2$s"
+
+#: inc/template-tags.php:84
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">dijo:</span>"
+
+#: inc/template-tags.php:75
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: inc/template-tags.php:23
+msgid "<span class=\"meta-nav\"></span> Older posts"
+msgstr "<span class=\"meta-nav\"></span> Entradas antiguas"
+
+#: inc/template-tags.php:27
+msgid "Newer posts <span class=\"meta-nav\"></span>"
+msgstr "Nuevas entradas <span class=\"meta-nav\"></span>"
+
+#: inc/template-tags.php:50
+msgid "Post navigation"
+msgstr "Navegador de artículos"
+
+#: inc/template-tags.php:19
+msgid "Posts navigation"
+msgstr "Ir a las entradas"
+
+#: image.php:30
+msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
+msgstr "Publicado <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> en <a href=\"%3$s\" title=\"Enlace a la imagen en tamaño real\">%4$s &times; %5$s</a> en <a href=\"%6$s\" title=\"Regresar a %7$s\" rel=\"galería\">%8$s</a>"
+
+#: inc/extras.php:113
+msgid "Page %s"
+msgstr "Página %s"
+
+#: header.php:37
+msgid "Menu"
+msgstr "Menu"
+
+#: header.php:23
+msgid "Skip to content"
+msgstr "Saltar al contenido."
+
+#: functions.php:121
+msgid "Main Sidebar"
+msgstr "Barra lateral principal"
+
+#. translators: If there are characters in your language that are not supported
+#. * by Droid Serif, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:87
+msgctxt "Droid Serif font: on or off"
+msgid "on"
+msgstr "off"
+
+#: functions.php:49
+msgid "Social Menu"
+msgstr "Menú social"
+
+#. translators: If there are characters in your language that are not supported
+#. * by Source Sans Pro, translate this to 'off'. Do not translate into your
+#. own language.
+#: functions.php:82
+msgctxt "Source Sans Pro font: on or off"
+msgid "on"
+msgstr "activa"
+
+#: functions.php:48
+msgid "Primary Menu"
+msgstr "Menú Principal"
+
+#: footer.php:21
+msgid "Theme: %1$s by %2$s."
+msgstr "Tema: %1$s por %2$s."
+
+#: footer.php:19
+msgid "Proudly powered by %s"
+msgstr "Funciona con %s"
+
+#: footer.php:19
+msgid "A Semantic Personal Publishing Platform"
+msgstr "Una Plataforma de Publicación Semántica Personal"
+
+#: content-none.php:26
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Parece que no podemos encontrar lo que estás buscando. Tal vez la búsqueda le pueda ayudar."
+
+#: content-none.php:21
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Lo sentimos, pero nada coincidió con su búsqueda. Por favor inténtelo de nuevo con otras palabras clave."
+
+#: content-none.php:17
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "¿Preparado para publicar tu primera entrada? <a href=\"%1$s\">Empieza aquí</a>."
+
+#: content-none.php:11
+msgid "Nothing Found"
+msgstr "No se ha encontrado nada"
+
+#: content-grid.php:26 content-page.php:25 content-testimonial.php:21
+#: image.php:41 inc/template-tags.php:75 inc/template-tags.php:99
+#: inc/template-tags.php:203 page-templates/front-page.php:28
+msgid "Edit"
+msgstr "Editar"
+
+#: content-grid.php:12 inc/template-tags.php:226
+msgid "Permalink to %s"
+msgstr "Enlace permanente a %s"
+
+#: content-aside.php:29 content-gallery.php:30 content-image.php:31
+#: content-link.php:28 content-page.php:19 content-quote.php:29
+#: content-video.php:29 content.php:36 image.php:61
+msgid "Pages:"
+msgstr "Páginas:"
+
+#: content-aside.php:26 content-gallery.php:27 content-image.php:28
+#: content-link.php:25 content-quote.php:26 content-video.php:26 content.php:33
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Seguir leyendo <span class=\"meta-nav\">&rarr;</span>"
+
+#: comments.php:48
+msgid "Comments are closed."
+msgstr "Los comentarios están cerrados."
+
+#: comments.php:26 comments.php:38
+msgid "Newer Comments &rarr;"
+msgstr "Comentarios recientes &rarr;"
+
+#: comments.php:25 comments.php:37
+msgid "&larr; Older Comments"
+msgstr "&larr; Comentarios antiguos"
+
+#: comments.php:24 comments.php:36
+msgid "Comment navigation"
+msgstr "Navegación de comentarios"
+
+#: comments.php:17
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Un comentario en &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s comentarios en &ldquo;%2$s&rdquo;"
+
+#: archive-jetpack-testimonial.php:29
+msgid "Testimonials"
+msgstr "Testimonios"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Parece que no se encontró nada en esta ubicación. ¿Quizás pruebes con uno de los enlaces de abajo o una búsqueda?"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "¡Vaya! Esa página no se puede encontrar."

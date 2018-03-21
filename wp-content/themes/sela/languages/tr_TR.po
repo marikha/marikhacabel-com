@@ -1,0 +1,339 @@
+# Translation of WordPress.com - Themes - Sela in Turkish
+# This file is distributed under the same license as the WordPress.com - Themes - Sela package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-03-04 03:56:15+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Language: tr\n"
+"Project-Id-Version: WordPress.com - Themes - Sela\n"
+
+#: functions.php:161
+msgid "Second Front Page Widget Area"
+msgstr "İkinci ön sayfa bileşen alanı"
+
+#: functions.php:153
+msgid "First Front Page Widget Area"
+msgstr "İlk ön sayfa bileşen alanı"
+
+#: functions.php:145
+msgid "Third Footer Widget Area"
+msgstr "Üçüncü Alt Bölüm Bileşen Alanı"
+
+#: functions.php:137
+msgid "Second Footer Widget Area"
+msgstr "İkinci Alt Bölüm Bileşen Alanı"
+
+#: functions.php:129
+msgid "First Footer Widget Area"
+msgstr "Birinci Alt Bölüm Bileşen Alanı"
+
+#. Template Name of the plugin/theme
+#: wp-content/themes/pub/sela/page-templates/full-width-page.php
+msgid "Full Width Page"
+msgstr "Tam sayfa genişlik"
+
+#. Template Name of the plugin/theme
+#: wp-content/themes/pub/sela/page-templates/front-page.php
+msgid "Front Page"
+msgstr "Ana Sayfa"
+
+#. Author of the plugin/theme
+#: wp-content/themes/pub/sela/style.css
+msgid "Automattic"
+msgstr "Automattic"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Arama sonuçları: %s"
+
+#: inc/template-tags.php:421
+msgid "Archives"
+msgstr "Arşivler"
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/template-tags.php:419
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: inc/template-tags.php:410
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "Ses"
+
+#: inc/template-tags.php:415
+msgid "Archives: %s"
+msgstr "Arşivler: %s"
+
+#: inc/template-tags.php:412
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "Sohbetler"
+
+#: inc/template-tags.php:406
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "Bağlantılar"
+
+#: inc/template-tags.php:408
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "Durumlar"
+
+#: inc/template-tags.php:400
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "Görseller"
+
+#: inc/template-tags.php:404
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "Alıntılar"
+
+#: inc/template-tags.php:402
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "Videolar"
+
+#: inc/template-tags.php:393
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "j F Y"
+
+#: inc/template-tags.php:396
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "Yan sütun"
+
+#: inc/template-tags.php:398
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "Galeriler"
+
+#: inc/template-tags.php:393
+msgid "Day: %s"
+msgstr "Gün: %s"
+
+#: inc/template-tags.php:391
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: inc/template-tags.php:391
+msgid "Month: %s"
+msgstr "Ay: %s"
+
+#: inc/template-tags.php:389
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: inc/template-tags.php:389
+msgid "Year: %s"
+msgstr "Yıl: %s"
+
+#: inc/template-tags.php:387
+msgid "Author: %s"
+msgstr "Yazar: %s"
+
+#: inc/template-tags.php:385
+msgid "Tag: %s"
+msgstr "Etiket: %s"
+
+#: inc/template-tags.php:325
+msgid "<a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">Permalink</a>."
+msgstr "<a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">Kalıcı Bağlantı</a>."
+
+#: inc/template-tags.php:333
+msgid "Posted in: %1$s"
+msgstr "Yayınlandı: %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:323
+msgid "Tagged: %2$s"
+msgstr "Etiketlendi: %2$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:315
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:198
+msgid "% Comments"
+msgstr "% Yorum"
+
+#: inc/template-tags.php:198
+msgid "1 Comment"
+msgstr "1 Yorum"
+
+#: inc/template-tags.php:198
+msgid "Leave a comment"
+msgstr "Yorum bırakın"
+
+#: inc/template-tags.php:187
+msgid "Featured"
+msgstr "Öne Çıkan"
+
+#: inc/template-tags.php:95
+msgid "Your comment is awaiting moderation."
+msgstr "Yorumunuz denetim için bekliyor."
+
+#: inc/template-tags.php:89
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s %2$s"
+
+#: inc/template-tags.php:84
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">dedi ki:</span>"
+
+#: inc/template-tags.php:75
+msgid "Pingback:"
+msgstr "Geri bildirim: "
+
+#: inc/template-tags.php:50
+msgid "Post navigation"
+msgstr "Yazı dolaşımı"
+
+#: inc/template-tags.php:19
+msgid "Posts navigation"
+msgstr "Yazı dolaşımı"
+
+#: image.php:30
+msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
+msgstr "<span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> tarihinde <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> üzerinde <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a> içinde yayımlandı"
+
+#: inc/extras.php:113
+msgid "Page %s"
+msgstr "Sayfa %s"
+
+#: header.php:37
+msgid "Menu"
+msgstr "Menü"
+
+#: header.php:23
+msgid "Skip to content"
+msgstr "İçeriğe geç"
+
+#. translators: If there are characters in your language that are not supported
+#. * by Oswald, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:92
+msgctxt "Oswald font: on or off"
+msgid "on"
+msgstr "açık"
+
+#: functions.php:121
+msgid "Main Sidebar"
+msgstr "Birincil yan sütun"
+
+#. translators: If there are characters in your language that are not supported
+#. * by Droid Serif, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:87
+msgctxt "Droid Serif font: on or off"
+msgid "on"
+msgstr "açık"
+
+#: functions.php:49
+msgid "Social Menu"
+msgstr "Sosyal Menü"
+
+#. translators: If there are characters in your language that are not supported
+#. * by Source Sans Pro, translate this to 'off'. Do not translate into your
+#. own language.
+#: functions.php:82
+msgctxt "Source Sans Pro font: on or off"
+msgid "on"
+msgstr "açık"
+
+#: functions.php:48
+msgid "Primary Menu"
+msgstr "Birincil menü"
+
+#: footer.php:21
+msgid "Theme: %1$s by %2$s."
+msgstr "Tema: %2$s tarafından %1$s."
+
+#: footer.php:19
+msgid "Proudly powered by %s"
+msgstr "%s gururla sunar"
+
+#: footer.php:19
+msgid "A Semantic Personal Publishing Platform"
+msgstr "Bir Anlambilimsel Kişisel Yayın Platformu"
+
+#: content-none.php:26
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Aradığınız sayfa bulunamadı. Belki arama kutusu aradığınızı bulma konusunda yardımcı olabilir."
+
+#: content-none.php:21
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Üzgünüz fakat aradığınız kriterler ile örtüşen sonuç bulunamadı. Lütfen başka kriterler ile tekrar deneyin."
+
+#: content-none.php:17
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "İlk yazınızı yayınlamaya hazır mısınız? <a href=\"%1$s\">Buradan başlayın</a>."
+
+#: content-none.php:11
+msgid "Nothing Found"
+msgstr "Bulunamadı"
+
+#: content-grid.php:26 content-page.php:25 content-testimonial.php:21
+#: image.php:41 inc/template-tags.php:75 inc/template-tags.php:99
+#: inc/template-tags.php:203 page-templates/front-page.php:28
+msgid "Edit"
+msgstr "Düzenle"
+
+#: content-grid.php:12 inc/template-tags.php:226
+msgid "Permalink to %s"
+msgstr "%s için kalıcı bağlantı"
+
+#: content-aside.php:29 content-gallery.php:30 content-image.php:31
+#: content-link.php:28 content-page.php:19 content-quote.php:29
+#: content-video.php:29 content.php:36 image.php:61
+msgid "Pages:"
+msgstr "Sayfalar:"
+
+#: content-aside.php:26 content-gallery.php:27 content-image.php:28
+#: content-link.php:25 content-quote.php:26 content-video.php:26 content.php:33
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Okumaya devam et <span class=\"meta-nav\">&rarr;</span>"
+
+#: comments.php:48
+msgid "Comments are closed."
+msgstr "Yorumlar kapalı."
+
+#: comments.php:26 comments.php:38
+msgid "Newer Comments &rarr;"
+msgstr "Yeni yorumlar &arr;"
+
+#: comments.php:25 comments.php:37
+msgid "&larr; Older Comments"
+msgstr "&arr; Eski yorumlar"
+
+#: comments.php:24 comments.php:36
+msgid "Comment navigation"
+msgstr "Yorum dolaşımı"
+
+#: comments.php:17
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "&ldquo;%2$s&rdquo; üzerine bir yorum"
+msgstr[1] "&ldquo;%2$s&rdquo; üzerine %1$s yorum"
+
+#: archive-jetpack-testimonial.php:29
+msgid "Testimonials"
+msgstr "Görüşler"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Burada hiçbir şeyin bulunmadığı görülüyor. Belki alttaki bağlantılardan birini veya bir arama yapmayı denemelisin?"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Üzgünüz! Bu sayfa bulunamıyor."

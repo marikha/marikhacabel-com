@@ -1,0 +1,118 @@
+.widget {
+	font-size: $font__size-small;
+	margin: 0 0 3em;
+
+	/* Make sure select elements fit in widgets. */
+	select {
+		margin-left: 1px;
+		max-width: 100%;
+	}
+
+	a {
+		transition: 0.3s;
+		text-decoration: none;
+	}
+
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+
+		li {
+			list-style: none;
+			border-top: 1px dashed $color__mid-grey;
+			margin-top: .75em;
+			padding-top: .75em;
+
+			li {
+				padding-left: 1.5em;
+
+				li {
+					padding-left: 3em;
+
+					li {
+						padding-left: 4.5em;
+					}
+				}
+			}
+		}
+	}
+}
+
+.widget-title {
+	font-style: italic;
+	font-size: $font__size-h5;
+	width: 100%;
+
+	a {
+		color: $color__text-headings;
+		text-decoration: none;
+	}
+
+	&:before {
+		background: url(img/button.svg) no-repeat;
+		background-size: 84px 22px;
+		background-position: 0 0;
+		content: "";
+		display: inline-block;
+		float: left;
+		margin-right: .45em;
+		position: relative;
+		top: -2px;
+		width: 22px;
+		height: 32px;
+	}
+}
+
+/* Search widget */
+.widget_search .search-field {
+	box-sizing: border-box;
+	width: 100%;
+	max-width: 100%;
+}
+.widget_search .search-submit {
+	display: none;
+}
+
+td#next {
+	text-align: right;
+}
+
+/* RSS */
+
+.widget_rss {
+	cite {
+		font-family: $font__heading;
+	}
+	.rss-date {
+		clear: both;
+		color: $color__primary;
+		display: block;
+		margin-bottom: .375em;
+		width: 100%;
+	}
+	.rssSummary {
+		margin-bottom: .375em;
+	}
+}
+
+/* Recent comments */
+
+.widget_recent_comments {
+	td,
+	td.recentcommentsavatarend, 
+	td.recentcommentsavatartop,
+	td.recentcommentstexttop,
+	td.recentcommentstextend {
+		border-top: 1px dashed $color__mid-grey !important;
+		line-height: 1.5;
+		padding-top: .5em;
+		padding-bottom: .5em;
+		vertical-align: top;
+	}
+	
+	td.recentcommentsavatarend, 
+	td.recentcommentsavatartop {
+		vertical-align: middle;
+	}
+}

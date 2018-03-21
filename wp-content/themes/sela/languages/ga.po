@@ -1,0 +1,297 @@
+# Translation of Motif in Irish
+# This file is distributed under the same license as the Motif package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2014-06-01 16:46:28+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : 4;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Motif\n"
+
+msgid "Full Width Page"
+msgstr ""
+
+msgid "Grid Page"
+msgstr ""
+
+msgid "Front Page"
+msgstr "Leathanach Tosaigh"
+
+msgid "Motif is a crisp, minimalist, and fully responsive business theme."
+msgstr ""
+
+#: sidebar.php:24
+msgid "Meta"
+msgstr "Imshonraí"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Torthaí ar: %s"
+
+#: no-results.php:26
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Sén chaoi nár frítheadh an rud a bhí tú a iarraidh. B’fhéidir go gcuartófá é."
+
+#: no-results.php:21
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Sén chaoi nár frítheadh na téarmaí a chuartaigh tú. D’fhéadfá focla eile a chuartú."
+
+#: no-results.php:17
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "bhFuil tú réidh le halt a fhoilsiú? <a href=\"%1$s\">Féadfaidh tú tosaí anseo</a>."
+
+#: no-results.php:11
+msgid "Nothing Found"
+msgstr "Gan Toradh"
+
+#: inc/template-tags.php:133
+msgid "View all posts by %s"
+msgstr "Gach a bhfuil foilsithe ag %s"
+
+#: inc/template-tags.php:115
+msgid "Featured"
+msgstr "Ardaithe"
+
+#: inc/template-tags.php:46
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Chun tosaigh <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:42
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Chun deiridh"
+
+#: inc/template-tags.php:37
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: inc/template-tags.php:36
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: inc/template-tags.php:32
+msgid "Post navigation"
+msgstr "Treoraíocht alt"
+
+#: inc/extras.php:67
+msgid "Page %s"
+msgstr "Leathanach %s"
+
+#: image.php:75
+msgid "Both comments and trackbacks are currently closed."
+msgstr ""
+
+#: image.php:73
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr ""
+
+#: image.php:71
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "Tá na freagraí dúnta, ach d'fhéadfá blagthásc a dhéanamh: <a class=\"trackback-link\" href=\"%s\" title=\"URL blagtháisc don alt\" rel=\"trackback\">URL blagtháisc</a>."
+
+#: image.php:69
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Scríobh freagra\">Scríobh freagra</a> nó déan blagthásc: <a class=\"trackback-link\" href=\"%s\" title=\"URL blagtháisc don alt\" rel=\"trackback\">URL blagtháisc</a>."
+
+#: image.php:40
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Chun tosaigh <span class=\"meta-nav\">&rarr;</span>"
+
+#: image.php:23
+msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
+msgstr "Foilsithe <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> ag <a href=\"%3$s\" title=\"Nasc leis an íomhá iomlán\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Fill ar %7$s\" rel=\"gallery\">%8$s</a>"
+
+#: image.php:39
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr "<span class=\"meta-nav\">&larr;</span> Chun deiridh"
+
+#: header.php:46
+msgid "Skip to content"
+msgstr "Beir go dtí an t-alt féin mé"
+
+#: header.php:45
+msgid "Menu"
+msgstr "Roghchlár"
+
+#: functions.php:154
+msgid "First Footer Sidebar"
+msgstr "An Chéad Taobh-Bharra Buntáisc"
+
+#: functions.php:162
+msgid "Second Footer Sidebar"
+msgstr "An Dara Taobh-Bharra Buntáisc"
+
+#: functions.php:170
+msgid "Third Footer Sidebar"
+msgstr "An Tríú Taobh-Bharra Buntáisc"
+
+#: functions.php:178
+msgid "First Front Page Sidebar"
+msgstr "An Chéad Taobh-Bharra ar an Leathanach Tosaigh"
+
+#: functions.php:186
+msgid "Second Front Page Sidebar"
+msgstr "An Dara Taobh-Bharra ar an Leathanach Tosaigh"
+
+#: functions.php:115
+msgctxt "Droid Serif font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:120
+msgctxt "Droid Sans font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:146
+msgid "Main Sidebar"
+msgstr "Príomh-Thaobh-Bharra"
+
+#: functions.php:69
+msgid "Footer Menu"
+msgstr "Roghchlár Buntáisc"
+
+#: functions.php:68
+msgid "Primary Menu"
+msgstr "Príomhroghchlár"
+
+#: footer.php:27
+msgid "Theme: %1$s by %2$s."
+msgstr "Téama: %1$s le %2$s."
+
+#: footer.php:25
+msgid "Proudly powered by %s"
+msgstr "Le cumhacht %s"
+
+#: footer.php:25
+msgid "A Semantic Personal Publishing Platform"
+msgstr ""
+
+#: content-grid.php:12 inc/template-tags.php:158
+msgid "Permalink to %s"
+msgstr "Buan-nasc le %s"
+
+#: content-aside.php:41 content-aside.php:47 content-gallery.php:47
+#: content-gallery.php:53 content-image.php:43 content-image.php:49
+#: content-link.php:41 content-link.php:47 content-quote.php:41
+#: content-quote.php:47 content-video.php:41 content-video.php:47
+#: content.php:55 content.php:61
+msgid ", "
+msgstr ", "
+
+#: content-aside.php:32 content-gallery.php:38 content-image.php:34
+#: content-link.php:32 content-page.php:30 content-quote.php:32
+#: content-video.php:32 content.php:45 image.php:60
+msgid "Pages:"
+msgstr "Leathanaigh:"
+
+#: content-aside.php:29 content-gallery.php:35 content-image.php:31
+#: content-link.php:29 content-quote.php:29 content-video.php:29 content.php:42
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Tuilleadh <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-aside.php:23 content-aside.php:52 content-gallery.php:23
+#: content-gallery.php:58 content-grid.php:26 content-image.php:25
+#: content-image.php:54 content-link.php:23 content-link.php:52
+#: content-page.php:35 content-quote.php:23 content-quote.php:52
+#: content-testimonial.php:27 content-video.php:23 content-video.php:52
+#: content.php:24 content.php:66 image.php:34 image.php:78
+#: page-templates/front-page.php:28
+msgid "Edit"
+msgstr "Eagar"
+
+#: content-aside.php:20 content-gallery.php:20 content-image.php:22
+#: content-link.php:20 content-quote.php:20 content-video.php:20 content.php:21
+msgid "1 Comment"
+msgstr ""
+
+#: content-aside.php:20 content-gallery.php:20 content-image.php:22
+#: content-link.php:20 content-quote.php:20 content-video.php:20 content.php:21
+msgid "% Comments"
+msgstr "Freagraí: %"
+
+#: content-aside.php:20 content-gallery.php:20 content-image.php:22
+#: content-link.php:20 content-quote.php:20 content-video.php:20 content.php:21
+msgid "Leave a comment"
+msgstr "Freagra"
+
+#: comments.php:48
+msgid "Comments are closed."
+msgstr "Freagraí dúnta."
+
+#: comments.php:26 comments.php:38
+msgid "Newer Comments &rarr;"
+msgstr "Freagraí Nua &rarr;"
+
+#: comments.php:25 comments.php:37
+msgid "&larr; Older Comments"
+msgstr "&larr; Seanfhreagraí"
+
+#: comments.php:24 comments.php:36
+msgid "Comment navigation"
+msgstr "Treoraíocht freagartha"
+
+#: comments.php:17
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Smaoineamh amháin ar “%2$s”"
+msgstr[1] "%1$s smaoineamh ar “%2$s”"
+msgstr[2] "%1$s smaoineamh ar “%2$s”"
+msgstr[3] "%1$s smaoineamh ar “%2$s”"
+msgstr[4] "%1$s smaoineamh ar “%2$s”"
+
+#: archive.php:61 sidebar.php:17
+msgid "Archives"
+msgstr "Cartlanna"
+
+#: archive.php:58
+msgid "Links"
+msgstr "Naisc"
+
+#: archive.php:55
+msgid "Quotes"
+msgstr "Athfhriotail"
+
+#: archive.php:52
+msgid "Videos"
+msgstr "Físeáin"
+
+#: archive.php:49
+msgid "Images"
+msgstr "Íomhánna"
+
+#: archive.php:43
+msgid "Year: %s"
+msgstr "Bliain: %s"
+
+#: archive.php:46
+msgid "Asides"
+msgstr "Seachfhocla"
+
+#: archive.php:40
+msgid "Month: %s"
+msgstr "Mí: %s"
+
+#: archive.php:37
+msgid "Day: %s"
+msgstr "Lá: %s"
+
+#: archive-jetpack-testimonial.php:22
+msgid "Testimonials"
+msgstr "Teistiméireachtaí"
+
+#: archive.php:29
+msgid "Author: %s"
+msgstr "Údar: %s"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Sén chaoi nár fríothadh tada anseo. B’fhéidir go mbreathnófá ar cheann de na naisc seo thíos nó go gcuartófá rud éigin."
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ab bu búna! Dheamhan fáil ar bith ar an leathanach sin."

@@ -1,0 +1,450 @@
+# Copyright (C) 2016 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Sela 1.0.14\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/theme/sela\n"
+"POT-Creation-Date: 2016-07-22 04:11:22+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:19
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: archive-jetpack-testimonial.php:29
+msgid "Testimonials"
+msgstr ""
+
+#: comments.php:17
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:24 comments.php:36
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:25 comments.php:37
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:26 comments.php:38
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:48
+msgid "Comments are closed."
+msgstr ""
+
+#: content-aside.php:26 content-gallery.php:27 content-image.php:28
+#: content-link.php:25 content-quote.php:26 content-video.php:26
+#: content.php:33
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: content-aside.php:29 content-gallery.php:30 content-image.php:31
+#: content-link.php:28 content-page.php:19 content-quote.php:29
+#: content-video.php:29 content.php:36 image.php:63
+msgid "Pages:"
+msgstr ""
+
+#: content-grid.php:12 inc/template-tags.php:228
+msgid "Permalink to %s"
+msgstr ""
+
+#: content-grid.php:26 content-page.php:25 content-testimonial.php:21
+#: image.php:43 inc/template-tags.php:75 inc/template-tags.php:99
+#: inc/template-tags.php:205 page-templates/front-page.php:28
+msgid "Edit"
+msgstr ""
+
+#: content-none.php:11
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:17
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:21
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:26
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: footer.php:19
+msgid "A Semantic Personal Publishing Platform"
+msgstr ""
+
+#: footer.php:19
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: footer.php:21
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: functions.php:48
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:49
+msgid "Social Menu"
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported
+#. 	 * by Source Sans Pro, translate this to 'off'. Do not translate into your
+#. own language.
+#: functions.php:82
+msgctxt "Source Sans Pro font: on or off"
+msgid "on"
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported
+#. 	 * by Droid Serif, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:87
+msgctxt "Droid Serif font: on or off"
+msgid "on"
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported
+#. 	 * by Oswald, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:92
+msgctxt "Oswald font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:121
+msgid "Main Sidebar"
+msgstr ""
+
+#: functions.php:129
+msgid "First Footer Widget Area"
+msgstr ""
+
+#: functions.php:137
+msgid "Second Footer Widget Area"
+msgstr ""
+
+#: functions.php:145
+msgid "Third Footer Widget Area"
+msgstr ""
+
+#: functions.php:153
+msgid "First Front Page Widget Area"
+msgstr ""
+
+#: functions.php:161
+msgid "Second Front Page Widget Area"
+msgstr ""
+
+#: functions.php:169
+msgid "Third Front Page Widget Area"
+msgstr ""
+
+#: header.php:23
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:37
+msgid "Menu"
+msgstr ""
+
+#: image.php:21
+msgid "<span class=\"meta-nav\"></span> Previous"
+msgstr ""
+
+#: image.php:22
+msgid "Next <span class=\"meta-nav\"></span>"
+msgstr ""
+
+#: image.php:32
+msgid ""
+"Published <span class=\"entry-date\"><time class=\"entry-date\" datetime="
+"\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size "
+"image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" "
+"rel=\"gallery\">%8$s</a>"
+msgstr ""
+
+#: inc/extras.php:113
+msgid "Page %s"
+msgstr ""
+
+#: inc/template-tags.php:19
+msgid "Posts navigation"
+msgstr ""
+
+#: inc/template-tags.php:23
+msgid "<span class=\"meta-nav\"></span> Older posts"
+msgstr ""
+
+#: inc/template-tags.php:27
+msgid "Newer posts <span class=\"meta-nav\"></span>"
+msgstr ""
+
+#: inc/template-tags.php:50
+msgid "Post navigation"
+msgstr ""
+
+#: inc/template-tags.php:53
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\"></span>&nbsp;%title"
+msgstr ""
+
+#: inc/template-tags.php:54
+msgctxt "Next post link"
+msgid "%title&nbsp;<span class=\"meta-nav\"></span>"
+msgstr ""
+
+#: inc/template-tags.php:75
+msgid "Pingback:"
+msgstr ""
+
+#: inc/template-tags.php:84
+msgid "%s <span class=\"says\">says:</span>"
+msgstr ""
+
+#: inc/template-tags.php:89
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/template-tags.php:95
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/template-tags.php:189
+msgid "Featured"
+msgstr ""
+
+#: inc/template-tags.php:200
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/template-tags.php:200
+msgid "1 Comment"
+msgstr ""
+
+#: inc/template-tags.php:200
+msgid "% Comments"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:317
+msgid ", "
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:325 inc/template-tags.php:333
+msgid "Tagged: %2$s"
+msgstr ""
+
+#: inc/template-tags.php:327
+msgid ""
+"<a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">Permalink</a>."
+msgstr ""
+
+#: inc/template-tags.php:333 inc/template-tags.php:335
+msgid "Posted in: %1$s"
+msgstr ""
+
+#: inc/template-tags.php:385
+msgid "Category: %s"
+msgstr ""
+
+#: inc/template-tags.php:387
+msgid "Tag: %s"
+msgstr ""
+
+#: inc/template-tags.php:389
+msgid "Author: %s"
+msgstr ""
+
+#: inc/template-tags.php:391
+msgid "Year: %s"
+msgstr ""
+
+#: inc/template-tags.php:391
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/template-tags.php:393
+msgid "Month: %s"
+msgstr ""
+
+#: inc/template-tags.php:393
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: inc/template-tags.php:395
+msgid "Day: %s"
+msgstr ""
+
+#: inc/template-tags.php:395
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr ""
+
+#: inc/template-tags.php:398
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr ""
+
+#: inc/template-tags.php:400
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr ""
+
+#: inc/template-tags.php:402
+msgctxt "post format archive title"
+msgid "Images"
+msgstr ""
+
+#: inc/template-tags.php:404
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr ""
+
+#: inc/template-tags.php:406
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr ""
+
+#: inc/template-tags.php:408
+msgctxt "post format archive title"
+msgid "Links"
+msgstr ""
+
+#: inc/template-tags.php:410
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr ""
+
+#: inc/template-tags.php:412
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr ""
+
+#: inc/template-tags.php:414
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr ""
+
+#: inc/template-tags.php:417
+msgid "Archives: %s"
+msgstr ""
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/template-tags.php:421
+msgid "%1$s: %2$s"
+msgstr ""
+
+#: inc/template-tags.php:423
+msgid "Archives"
+msgstr ""
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+#: wp-content/themes/pub/sela/style.css
+msgid "Sela"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+#: wp-content/themes/pub/sela/style.css
+msgid "https://wordpress.com/themes/sela/"
+msgstr ""
+
+#. Description of the plugin/theme
+#: wp-content/themes/pub/sela/style.css
+msgid ""
+"Sela is not your typical business theme. Vibrant, bold, and clean, with lots "
+"of space for large images, this theme will look great on all devices, from "
+"desktop to mobile."
+msgstr ""
+
+#. Author of the plugin/theme
+#: wp-content/themes/pub/sela/style.css
+msgid "Automattic"
+msgstr ""
+
+#. Author URI of the plugin/theme
+#: wp-content/themes/pub/sela/style.css
+msgid "https://wordpress.com/themes/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+#: wp-content/themes/pub/sela/page-templates/front-page.php
+msgid "Front Page"
+msgstr ""
+
+#. Template Name of the plugin/theme
+#: wp-content/themes/pub/sela/page-templates/full-width-page.php
+msgid "Full Width Page"
+msgstr ""
+
+#. Template Name of the plugin/theme
+#: wp-content/themes/pub/sela/page-templates/grid-page.php
+msgid "Grid Page"
+msgstr ""
+#: inc/plugin-enhancements.php:92
+msgid "The %1$s is necessary to use some of this theme&rsquo;s features, including: "
+msgstr ""
+
+#: inc/plugin-enhancements.php:93
+msgid "Jetpack plugin"
+msgstr ""
+
+#: inc/plugin-enhancements.php:180
+msgid "no specific module needed"
+msgstr ""
+
+#: inc/plugin-enhancements.php:181
+msgid "Custom Content Types module"
+msgstr ""
+
+#: inc/plugin-enhancements.php:253
+msgid "Please activate %1$s. %2$s"
+msgstr ""
+
+#: inc/plugin-enhancements.php:255
+msgid "Activate"
+msgstr ""
+
+#: inc/plugin-enhancements.php:263
+msgid "Please install %1$s. %2$s"
+msgstr ""
+
+#: inc/plugin-enhancements.php:265
+msgid "Install"
+msgstr ""
+
+#: inc/plugin-enhancements.php:290
+msgid "To use %1$s, please activate the Jetpack plugin&rsquo;s %2$s."
+msgstr ""

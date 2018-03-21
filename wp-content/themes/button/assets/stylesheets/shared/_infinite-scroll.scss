@@ -1,0 +1,64 @@
+/* Globally hidden elements when Infinite Scroll is supported and in use. */
+.infinite-scroll .posts-navigation, /* Older / Newer Posts Navigation (always hidden) */
+.infinite-scroll.neverending .site-footer { /* Theme Footer (when set to scrolling) */
+	display: none;
+}
+
+/* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before. */
+.infinity-end.neverending .site-footer {
+	display: block;
+}
+
+#infinite-footer {
+    z-index: 999;
+}
+#infinite-footer .container {
+    font-style: italic;
+    position: relative;
+    color: $color__dark-grey;
+    border-top: 1px dashed $color__mid-grey;
+}
+#infinite-footer .container a {
+    color: $color__primary;
+}
+#infinite-footer .container a:hover {
+    color: $color__link;
+}
+#infinite-footer .blog-info a,
+#infinite-footer .blog-credits {
+	color: $color__primary;
+    font-style: normal;
+   	font-weight: bold;
+    text-transform: uppercase;
+}
+
+.infinite-loader {
+    clear: both;
+    width: 28px;
+    height: 43px;
+    margin: 0 auto 14px;
+    padding-top: 27px;
+}
+
+#infinite-handle {
+    clear: both;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+
+    span {
+    	background: transparent;
+    	border: 0;
+    	border-radius: 0;
+    	color: inherit;
+    }
+}
+
+.jetpack-video-wrapper {
+	margin-bottom: 1.5em;
+}
+
+.jetpack-slideshow.slideshow-black {
+	background-color: $color__mid-grey;
+	border-color: $color__mid-grey;
+}

@@ -1,0 +1,308 @@
+/*===== Variables =====*/
+/* Theme Colors */
+/* Social Media Brand Colors */
+/*===== Mixins =====*/
+/* grid stuff */
+/* Baseline Grid
+background-image: linear-gradient(#fff 23px, #00fffc 24px, #fff 0px);
+background-size: 1px 24px; /* this is a 24px baseline grid */
+/* Column Grid
+background-color: gray;
+background-image: linear-gradient(90deg, transparent 99%, rgba(255,255,255,.5) 0%);
+background-size: 11.1%; /* This is at 6-columns -> just change this # */
+/* Customizer Styles */
+#accordion-section-ct_tracks_pro .accordion-section-title {
+  color: #fff;
+  background: #05B0E7;
+  -webkit-transition: background 0.2s;
+          transition: background 0.2s;
+}
+#accordion-section-ct_tracks_pro .accordion-section-title:after {
+  color: #fff;
+}
+#accordion-section-ct_tracks_pro .accordion-section-title:hover, #accordion-section-ct_tracks_pro .accordion-section-title:active, #accordion-section-ct_tracks_pro .accordion-section-title:focus {
+  background: #3A96B5 !important;
+  color: #fff !important;
+}
+#accordion-section-ct_tracks_pro .accordion-section-title:hover:after, #accordion-section-ct_tracks_pro .accordion-section-title:active:after, #accordion-section-ct_tracks_pro .accordion-section-title:focus:after {
+  color: #fff !important;
+}
+
+#customize-control-tracks_pro {
+  background: white;
+  border: solid 1px #D8D8D8;
+  padding: 6px 24px;
+  box-sizing: border-box;
+}
+#customize-control-tracks_pro ul {
+  list-style: disc;
+  padding-left: 15px;
+}
+#customize-control-tracks_pro img {
+  position: relative;
+  max-width: none;
+  width: 273px;
+  top: -6px;
+  left: -24px;
+  border-bottom: solid 1px #D8D8D8;
+}
+#customize-control-tracks_pro .bold {
+  font-weight: 600;
+  font-size: 16px;
+}
+#customize-control-tracks_pro .button-wrapper {
+  text-align: center;
+}
+#customize-control-tracks_pro .tracks-pro-button {
+  display: inline-block;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  margin: 12px auto;
+  padding: 15px 24px;
+  background: #FF7A05;
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: background 0.2s;
+          transition: background 0.2s;
+}
+#customize-control-tracks_pro .tracks-pro-button:before {
+  content: '\f06e';
+  font-family: 'FontAwesome';
+  margin-right: 6px;
+}
+#customize-control-tracks_pro .tracks-pro-button:hover, #customize-control-tracks_pro .tracks-pro-button:active, #customize-control-tracks_pro .tracks-pro-button:focus {
+  background: #FF8A23;
+}
+
+#customize-control-ct_tracks_background_texture_setting input {
+  visibility: hidden;
+}
+#customize-control-ct_tracks_background_texture_setting label {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  padding: 0;
+  margin: 0 8px 10px 0;
+  color: transparent;
+  border: solid 1px transparent;
+  -webkit-transition: opacity 0.2s ease;
+          transition: opacity 0.2s ease;
+}
+#customize-control-ct_tracks_background_texture_setting label.no-margin {
+  margin-right: 0;
+}
+#customize-control-ct_tracks_background_texture_setting label:hover {
+  opacity: 0.8;
+}
+#customize-control-ct_tracks_background_texture_setting label.selected {
+  outline: solid 1px #43B3C4;
+}
+
+#customize-control-premium_layouts_full_width_image_height,
+#customize-control-premium_layouts_full_width_image_height_post,
+#customize-control-premium_layouts_full_width_image_style,
+#customize-control-premium_layouts_full_width_full_post,
+#customize-control-premium_layouts_two_column_images_content_display {
+  display: none !important;
+}
+#customize-control-premium_layouts_full_width_image_height.show,
+#customize-control-premium_layouts_full_width_image_height_post.show,
+#customize-control-premium_layouts_full_width_image_style.show,
+#customize-control-premium_layouts_full_width_full_post.show,
+#customize-control-premium_layouts_two_column_images_content_display.show {
+  display: list-item !important;
+}
+
+#accordion-section-colors {
+  display: none !important;
+}
+
+#customize-control-additional_options_fallback_featured_image {
+  display: none !important;
+}
+#customize-control-additional_options_fallback_featured_image.show {
+  display: list-item !important;
+}
+
+/* Multiple select styles (for comments dropdown) */
+/**
+ * @author zhixin wen <wenzhixin2010@gmail.com>
+ */
+.ms-parent {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  width: 250px !important;
+}
+
+.ms-choice {
+  display: block;
+  width: 100%;
+  height: 26px;
+  padding: 0;
+  overflow: hidden;
+  cursor: pointer;
+  border: 1px solid #aaa;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 26px;
+  color: #444;
+  text-decoration: none;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.ms-choice:focus {
+  outline: none;
+}
+
+.ms-choice.disabled {
+  background-color: #f4f4f4;
+  background-image: none;
+  border: 1px solid #ddd;
+  cursor: default;
+}
+
+.ms-choice > span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  padding-left: 8px;
+}
+
+.ms-choice > span.placeholder {
+  color: #999;
+}
+
+.ms-choice > div {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20px;
+  height: 25px;
+  background: url("multiple-select.png") left top no-repeat;
+}
+
+.ms-choice > div.open {
+  background: url("multiple-select.png") right top no-repeat;
+}
+
+.ms-drop {
+  width: 100%;
+  overflow: hidden;
+  display: none;
+  margin-top: -1px;
+  padding: 0;
+  position: relative;
+  z-index: 1000;
+  background: #fff;
+  color: #000;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+.ms-drop.bottom {
+  top: 100%;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
+}
+
+.ms-drop.top {
+  bottom: 100%;
+  box-shadow: 0 -2px 3px rgba(0, 0, 0, 0.15);
+}
+
+.ms-search {
+  display: inline-block;
+  margin: 0;
+  min-height: 26px;
+  padding: 4px;
+  position: relative;
+  white-space: nowrap;
+  width: 100%;
+  z-index: 10000;
+}
+
+.ms-search input {
+  width: 100%;
+  height: auto !important;
+  min-height: 24px;
+  padding: 0 20px 0 5px;
+  margin: 0;
+  outline: 0;
+  font-family: sans-serif;
+  font-size: 1em;
+  border: 1px solid #aaa;
+  border-radius: 0;
+  box-shadow: none;
+  background: #fff url("multiple-select.png") no-repeat 100% -22px;
+  background: url("multiple-select.png") no-repeat 100% -22px, -webkit-gradient(linear, left bottom, left top, color-stop(0.85, white), color-stop(0.99, #eeeeee));
+  background: url("multiple-select.png") no-repeat 100% -22px, -webkit-linear-gradient(center bottom, white 85%, #eeeeee 99%);
+  background: url("multiple-select.png") no-repeat 100% -22px, -webkit-linear-gradient(top, #ffffff 85%, #eeeeee 99%);
+  background: url("multiple-select.png") no-repeat 100% -22px, linear-gradient(top, #ffffff 85%, #eeeeee 99%);
+}
+
+.ms-search, .ms-search input {
+  -khtml-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.ms-drop ul {
+  overflow: auto;
+  margin: 0;
+  padding: 5px 8px;
+}
+
+.ms-drop ul > li {
+  list-style: none;
+  display: list-item;
+  background-image: none;
+  position: static;
+}
+
+.ms-drop ul > li .disabled {
+  opacity: .35;
+  filter: Alpha(Opacity=35);
+}
+
+.ms-drop ul > li.multiple {
+  display: block;
+  float: left;
+}
+
+.ms-drop ul > li.group {
+  clear: both;
+}
+
+.ms-drop ul > li.multiple label {
+  width: 100%;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ms-drop ul > li label {
+  font-weight: normal;
+  display: block;
+  white-space: nowrap;
+}
+
+.ms-drop ul > li label.optgroup {
+  font-weight: bold;
+}
+
+.ms-drop input[type="checkbox"] {
+  vertical-align: middle;
+}
+
+.ms-drop .ms-no-results {
+  display: none;
+}
